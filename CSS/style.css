@@ -193,6 +193,149 @@ main {}
 
 
 
+
+#inspiration-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#inspiration-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#inspiration-div-h2 {
+    background-image: url(../images/mobil-forside/inspiration-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
+
+
+
+#bestsellers-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#bestsellers-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#bestsellers-div-h2 {
+    background-image: url(../images/mobil-forside/bestsellers-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
+
+
+#trends-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#trends-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#trends-div-h2 {
+    background-image: url(../images/mobil-forside/trends-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
+
+
+#brands-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#brands-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#brands-div-h2 {
+    background-image: url(../images/mobil-forside/brands-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
+
+
+#udsalg-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#udsalg-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#udsalg-div-h2 {
+    background-image: url(../images/mobil-forside/udsalg-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
+
+#martin-billede{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+#martin-h2{
+    text-align: center;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {

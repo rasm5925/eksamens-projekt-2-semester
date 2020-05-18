@@ -16,6 +16,7 @@ summary {
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 #wrapper {
@@ -31,10 +32,9 @@ header {
     top: 0;
     left: 0;
     padding: 0 60px;
-    background: #2B2D29;
     width: 100%;
     box-sizing: border-box;
-    
+
 }
 
 header .logo {
@@ -47,10 +47,10 @@ header .logo {
     position: absolute;
     right: 50%;
     margin-right: -50px;
-    
+
 }
 
-#search-icon{
+#search-icon {
     height: 20px;
     float: right;
     line-height: 50px;
@@ -59,12 +59,12 @@ header .logo {
     margin-right: 10px;
 }
 
-#shopping-kurv{
+#shopping-kurv {
     height: 20px;
     float: right;
     line-height: 50px;
     font-size: 24px;
-    margin-top: 14px;  
+    margin-top: 14px;
 }
 
 
@@ -163,6 +163,34 @@ header nav ul li a.active {
 main {}
 
 
+#forside-billede {
+    width: 100%;
+}
+
+#nyheder-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#nyheder-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#nyheder-div-h2 {
+    background-image: url(../images/mobil-forside/nyheder-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
+
 
 
 /* Footer
@@ -171,72 +199,73 @@ footer {
     height: auto;
     background: #BFF08E;
 }
-@media (min-width: 1000px){
-    nav{
+
+@media (min-width: 1000px) {
+    nav {
         display: none;
     }
 }
 
-@media (max-width: 1000px)
-{
-    header 
-{
-    padding: 0 20px;
-}
+@media (max-width: 1000px) {
+    header {
+        padding: 0 20px;
+    }
 
-.menu-desktop{
+    .menu-desktop {
         display: none;
     }
 
-    
-.menu-toggle {
-    display:block;
-}
 
-header nav {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 50px);
-    background: #333;
-    top: 50px;
-    left: -100%;
-    transition: 0.5s;
-}
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
     header nav.active {
-    left: 0;
-}
+        left: 0;
+    }
 
-header nav ul {
-    display: block;
-    text-align: center;
-}
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
 
-header nav ul li a {
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-}
-.footer{
-    padding: 10%;
-    margin: 10%;
-    text-align: center;
-}
-#search-icon{
-    height: 20px;
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    margin-top: 14px;
-    margin-right: 10px;
-}
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
 
-#shopping-kurv{
-    height: 20px;
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    margin-top: 14px;
-    
+    .footer {
+        padding: 10%;
+        margin: 10%;
+        text-align: center;
+    }
+
+    #search-icon {
+        height: 20px;
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        margin-top: 14px;
+        margin-right: 10px;
+    }
+
+    #shopping-kurv {
+        height: 20px;
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        margin-top: 14px;
+
+    }
+
+
 }
-    
-    
-}
-    

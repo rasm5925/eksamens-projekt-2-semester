@@ -331,17 +331,252 @@ main {}
     margin-right: auto;
     padding-top: 5%;
 }
-
+#vores-erfaring-div{
+    background-color: #E5E5E5;
+    padding-bottom: 2%;
+    padding-top: 55%;
+    margin-top: -45%;
+    margin-bottom: 12%;
+}
 #martin-h2{
     text-align: center;
+    margin-bottom: 15%;
 }
+
+
+#gratis-fragt-billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gratis-fragt-p{
+    text-align: center;
+    line-height: 24px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+#support-billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#support-p{
+    text-align: center;
+    line-height: 24px;
+    margin-left: 12%;
+    margin-right: 12%;
+    
+}
+
+#kundeservice-flex-1og2{
+    display: flex;
+}
+
+#kundeservice-flex-1{
+    width: 50%;
+}
+#kundeservice-flex-2{
+    width: 50%;
+}
+
+
+#trustpilot-billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trustpilot-stjerner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+#trustpilot-p{
+    text-align: center;
+    line-height: 24px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 4%;
+}
+
+
+#fysisk-butik-billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fysisk-butik-p{
+    text-align: center;
+    line-height: 24px;
+    margin-left: 12%;
+    margin-right: 12%;
+    
+}
+
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
     height: auto;
-    background: #BFF08E;
+    background: #2B2D29;
 }
+
+#back-to-top-flex{
+    display: flex;
+    float: right;
+    width: 35%;
+}
+#back-to-top-p{
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 6%;
+}
+#back-to-top-billede{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+#p-kunderservice{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 10%;
+}
+
+#p-prisgarenti{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 10%;
+}
+
+#p-fortrydelsesret{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 10%;
+}
+
+
+
+#p-kontakt{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 5%;
+}
+#p-tlf{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 5%;
+}
+
+#p-mail{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 5%;
+}
+
+#p-mail-svar{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 5%;
+}
+
+#footer-flex{
+    display: flex;
+    width: 100%;
+}
+
+#footer-flex-1{
+    width: 50%;
+}
+
+#footer-flex-2{
+    width: 50%;
+    padding-top: 10%;
+    
+}
+
+#icon-fb{
+    height: 20px;
+    width: auto;
+}
+
+#icon-ig{
+    height: 20px;
+    width: auto;
+    
+}
+
+#icon-yt{
+    height: 17px;
+    width: auto;
+    margin-bottom: 2%;
+}
+
+#icon-p{
+    height: 20px;
+    width: auto;
+}
+
+#icon-dankort{
+    height: 16px;
+    width: auto;
+    padding: 3%;
+}
+
+#icon-mastercard{
+    height: 16px;
+    width: auto;
+    padding: 3%;
+}
+
+#icon-visa{
+    height: 16px;
+    width: auto;
+    padding: 3%;
+}
+
+#icon-em{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#icon-flex-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#icon-flex-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#icon-flex-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#copyright{
+    color: white;
+    margin: 5%;
+    padding-bottom: 5%;
+}
+
+/*----------------------------------------------*/
 
 @media (min-width: 1000px) {
     nav {

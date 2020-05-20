@@ -1,0 +1,158 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 60px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+header .logo {
+    color: #fff;
+    width: 100px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    float: right;
+    position: absolute;
+    right: 50%;
+    margin-right: -50px;
+
+}
+
+#search-icon {
+    height: 20px;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+#shopping-kurv {
+    height: 20px;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    margin-top: 14px;
+}
+
+
+header div {
+    float: left;
+}
+
+header div ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header div ul li {
+    list-style: none;
+}
+
+header div ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+
+header section {
+    float: right;
+}
+
+header section ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header section ul li {
+    list-style: none;
+}
+
+header section ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+header nav {
+    float: left;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/*header nav ul li a:hover,
+header nav ul li a.active {
+    color: #fff;
+    background: #D8D5D3;
+}*/
+
+.menu-toggle {
+    color: #fff;
+    float: left;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}

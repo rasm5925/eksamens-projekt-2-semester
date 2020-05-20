@@ -191,6 +191,22 @@ main {}
     width: 45%;
 }
 
+#nyheder-box {
+    background-color: #DCDCDC;
+    display: none;
+}
+
+#bestsellers-box {
+    background-color: #C6C6C6;
+    display: none;
+}
+
+#udsalg-box {
+    background-color: #DCDCDC;
+    display: none;
+}
+
+
 
 
 
@@ -324,32 +340,53 @@ main {}
 }
 
 
-#martin-billede{
+#martin-billede {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
 }
-#vores-erfaring-div{
+
+#annette-billede {
+    width: 90%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+#vores-erfaring-div {
     background-color: #E5E5E5;
     padding-bottom: 2%;
     padding-top: 55%;
     margin-top: -45%;
     margin-bottom: 12%;
 }
-#martin-h2{
+
+#martin-h2 {
     text-align: center;
     margin-bottom: 15%;
 }
 
+#vores-erfaring-p {
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    display: none;
+}
 
-#gratis-fragt-billede{
+
+#gratis-fragt-billede {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#gratis-fragt-p{
+
+#gratis-fragt-p {
     text-align: center;
     line-height: 24px;
     margin-left: 12%;
@@ -357,45 +394,59 @@ main {}
 }
 
 
-#support-billede{
+#support-billede {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#support-p{
+
+#support-p {
     text-align: center;
     line-height: 24px;
     margin-left: 12%;
     margin-right: 12%;
-    
+
 }
 
-#kundeservice-flex-1og2{
+#kundeservice-flex-1og2 {
     display: flex;
 }
 
-#kundeservice-flex-1{
+#kundeservice-flex-1 {
     width: 50%;
 }
-#kundeservice-flex-2{
+
+#kundeservice-flex-2 {
+    width: 50%;
+}
+
+#kundeservice-flex-3og4 {
+    display: flex;
+}
+
+#kundeservice-flex-3 {
+    width: 50%;
+}
+
+#kundeservice-flex-4 {
     width: 50%;
 }
 
 
-#trustpilot-billede{
+#trustpilot-billede {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#trustpilot-stjerner{
+#trustpilot-stjerner {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
 }
 
-#trustpilot-p{
+#trustpilot-p {
     text-align: center;
     line-height: 24px;
     margin-left: 12%;
@@ -404,17 +455,18 @@ main {}
 }
 
 
-#fysisk-butik-billede{
+#fysisk-butik-billede {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#fysisk-butik-p{
+
+#fysisk-butik-p {
     text-align: center;
     line-height: 24px;
     margin-left: 12%;
     margin-right: 12%;
-    
+
 }
 
 
@@ -426,37 +478,39 @@ footer {
     background: #2B2D29;
 }
 
-#back-to-top-flex{
+#back-to-top-flex {
     display: flex;
     float: right;
     width: 35%;
 }
-#back-to-top-p{
+
+#back-to-top-p {
     color: white;
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 6%;
 }
-#back-to-top-billede{
+
+#back-to-top-billede {
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 6%;
     margin-right: 6%;
 }
 
-#p-kunderservice{
+#p-kunderservice {
     color: white;
     font-size: 1.3em;
     margin-left: 10%;
 }
 
-#p-prisgarenti{
+#p-prisgarenti {
     color: white;
     font-size: 0.9em;
     margin-left: 10%;
 }
 
-#p-fortrydelsesret{
+#p-fortrydelsesret {
     color: white;
     font-size: 0.9em;
     margin-left: 10%;
@@ -464,113 +518,124 @@ footer {
 
 
 
-#p-kontakt{
+#p-kontakt {
     color: white;
     font-size: 1.3em;
     margin-left: 5%;
 }
-#p-tlf{
+
+#p-tlf {
     color: white;
     font-size: 0.9em;
     margin-left: 5%;
 }
 
-#p-mail{
+#p-mail {
     color: white;
     font-size: 0.9em;
     margin-left: 5%;
 }
 
-#p-mail-svar{
+#p-mail-svar {
     color: white;
     font-size: 0.9em;
     margin-left: 5%;
 }
 
-#footer-flex{
+#footer-flex {
     display: flex;
     width: 100%;
 }
 
-#footer-flex-1{
+#footer-flex-1 {
     width: 50%;
 }
 
-#footer-flex-2{
+#footer-flex-2 {
     width: 50%;
     padding-top: 10%;
-    
+
 }
 
-#icon-fb{
+#footer-flex-2 {
+    width: 50%;
+    padding-top: 10%;
+
+}
+
+#footer-flex-4 {
+        display: none;
+    }
+
+#icon-fb {
     height: 20px;
     width: auto;
 }
 
-#icon-ig{
+#icon-ig {
     height: 20px;
     width: auto;
-    
+
 }
 
-#icon-yt{
+#icon-yt {
     height: 17px;
     width: auto;
     margin-bottom: 2%;
 }
 
-#icon-p{
+#icon-p {
     height: 20px;
     width: auto;
 }
 
-#icon-dankort{
+#icon-dankort {
     height: 16px;
     width: auto;
     padding: 3%;
 }
 
-#icon-mastercard{
+#icon-mastercard {
     height: 16px;
     width: auto;
     padding: 3%;
 }
 
-#icon-visa{
+#icon-visa {
     height: 16px;
     width: auto;
     padding: 3%;
 }
 
-#icon-em{
+#icon-em {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-#icon-flex-1{
+#icon-flex-1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#icon-flex-2{
+#icon-flex-2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#icon-flex-3{
+#icon-flex-3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#copyright{
+#copyright {
     color: white;
     margin: 5%;
     padding-bottom: 5%;
@@ -582,6 +647,239 @@ footer {
     nav {
         display: none;
     }
+
+    #nyheder-flexbox {
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+    }
+
+    #nyheder-flexbox-1 {
+        width: 60%;
+    }
+
+    #nyheder-flexbox-2 {
+        width: 40%;
+        margin-top: 2%;
+
+    }
+
+    #nyheder-billede {
+
+        padding-top: 10%;
+    }
+
+    #nyheder-box {
+        display: block;
+        margin-top: 10%;
+        height: 93.3%;
+
+    }
+
+    #nyheder-text {
+        text-align: center;
+        line-height: 40px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+
+
+
+    #bestsellers-flexbox {
+        display: flex;
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    #bestsellers-flexbox-1 {
+        width: 50%;
+    }
+
+    #bestsellers-flexbox-2 {
+        width: 50%;
+
+    }
+
+    #bestsellers-billede {
+
+        padding-top: 10%;
+    }
+
+    #bestsellers-box {
+        display: block;
+        margin-top: 10%;
+        height: 90.3%;
+
+    }
+
+    #bestsellers-div-h2-part2 {
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    #bestsellers-text {
+        text-align: center;
+        line-height: 40px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #bestsellers-div-h2 {
+        display: none;
+    }
+
+    #trends-og-brands-flexbox {
+        display: flex;
+    }
+
+    #trends-flexbox {
+        width: 50%;
+    }
+
+    #brands-flexbox {
+        width: 50%;
+    }
+
+
+
+    #udsalg-flexbox {
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+
+    }
+
+    #udsalg-flexbox-1 {
+        width: 40%;
+        margin-top: 1%;
+    }
+
+    #udsalg-flexbox-2 {
+        width: 60%;
+
+    }
+
+    #udsalg-box {
+        display: block;
+        margin-top: 5%;
+        height: 95.3%;
+
+    }
+
+    #udsalg-text {
+        text-align: center;
+        line-height: 40px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #martin-billede {
+        width: 100%;
+    }
+
+    #annette-billede {
+        display: block;
+        width: 100%;
+    }
+
+    #profil-flexbox {
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 2%;
+    }
+
+    #profil-flexbox-1 {
+        width: 50%;
+    }
+
+    #profil-flexbox-2 {
+        width: 50%;
+    }
+
+    #vores-erfaring-div {
+        padding-bottom: 2%;
+        padding-top: 20%;
+        margin-top: -15%;
+        margin-bottom: 8%;
+    }
+
+    #vores-erfaring-p {
+        padding-bottom: 2%;
+        display: block;
+    }
+
+    #martin-h2 {
+        margin-bottom: 5%;
+    }
+
+
+    #icon-flex-bred {
+        display: flex;
+        margin-bottom: 4%;
+
+    }
+
+    #icon-flex-bred-1 {
+        width: 50%;
+    }
+
+    #icon-flex-bred-2 {
+        width: 50%;
+    }
+
+    #footer-flex-bred {
+        display: flex;
+    }
+
+
+    #footer-flex-1 {
+        width: 33%;
+    }
+
+    #footer-flex-2 {
+        width: 33%;
+    }
+
+    #footer-flex-3 {
+        display: none;
+
+    }
+    #footer-flex-4 {
+        display: block;
+
+    }
+    
+    
+    
+    
+    
+    
+    #back-to-top-flex {
+    position: relative;
+        top: 10%;
+        left: 2%;
+    clear: both;
+    width: 15%;
+}
+    
+    
+    
+    
+    
 }
 
 @media (max-width: 1000px) {

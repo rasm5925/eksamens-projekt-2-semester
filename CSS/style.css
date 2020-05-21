@@ -474,6 +474,233 @@ main {}
 /* produkt-side
 -----------------------------------------------------------------------------*/
 
+#produkt-overskrift-h2{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 1.6em;
+}
+#produkt-overskrift-h3{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+#produkt-overskrift-p{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#produkt-billede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#flere-billeder-flex{
+    display: flex;
+}
+#flere-billeder-1{
+    width: 30%;
+    margin: 2%;
+    margin-left: 4%;
+}
+#flere-billeder-2{
+    width: 30%;
+    margin: 2%;
+}
+#flere-billeder-3{
+    width: 30%;
+    margin: 2%;
+    margin-right: 4%;
+}
+
+
+#koeb-nu-knap-pris{
+    margin-left: 4%;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#koeb-nu-knap{
+    background-color: #446C68;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#koeb-nu-knap-p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#lagerstatus{
+    margin-left: 4%;
+    font-size: 0.8em;
+}
+
+#produkt-info-h3{
+    margin-left: 4%;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+#produkt-info-p-del-1{
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 1.5;
+}
+
+#produkt-info-p-del-2{
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 1.5;
+}
+
+#fordele-icon-flex{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.fordele-icon-flex-linje{
+    display: flex;
+}
+
+.icon-fordele{
+    width: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+.p-fordele{
+    width: 90%;
+    margin: 4%;
+}
+
+#sofa-i-stuen-billede{
+    width: 100%;
+    margin-top: 4%;
+}
+
+#specifikationer-box{
+    background-color: #F1F1F1;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#specifikationer-h2{
+    padding-top: 6%;
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+.specifikationer-flex{
+    display: flex;
+}
+
+#specifikationer-flex-1{
+    width: 50%;
+    margin-left: 8%;
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+#specifikationer-flex-2{
+    font-size: 1.6em;
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+
+.specifikationer-overskrift-1{
+    width: 50%;
+    margin-left: 8%;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.specifikationer-overskrift-2{
+    font-size: 1.6em;
+    width: 50%;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+
+.specifikationer-svar-1{
+    width: 50%;
+    margin-left: 8%;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.specifikationer-svar-2{
+    font-size: 1em;
+    width: 50%;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+#spe-svar-1{
+    margin-bottom: 6%;
+}
+
+#spe-svar-2{
+    margin-bottom: 6%;
+}
+
+
+#andre-favoritter-h4{
+    padding-top: 6%;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#andre-favoritter-sofa-1og2-flex{
+    display: flex;
+}
+
+#andre-favoritter-sofa-1{
+    width: 50%;
+    margin-left: 8%;
+}
+
+#andre-favoritter-sofa-2{
+    width: 50%;
+    margin-right: 8%;
+}
+
+#andre-favoritter-sofa-3og4-flex{
+    display: flex;
+}
+
+#andre-favoritter-sofa-3{
+    width: 50%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+
+#andre-favoritter-sofa-4{
+    width: 50%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+}
+
 
 /* Mest solgte
 -----------------------------------------------------------------------------*/

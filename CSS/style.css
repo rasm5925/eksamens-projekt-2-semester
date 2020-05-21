@@ -19,10 +19,6 @@ body {
     margin: 0;
 }
 
-#wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-}
 
 
 /* Header
@@ -164,6 +160,11 @@ main {}
 
 
 #forside-billede {
+    width: 100%;
+}
+
+#forside-billede-header{
+    height: 50px;
     width: 100%;
 }
 
@@ -468,6 +469,10 @@ main {}
     margin-right: 12%;
 
 }
+
+
+/* produkt-side
+-----------------------------------------------------------------------------*/
 
 
 /* Mest solgte
@@ -926,7 +931,7 @@ footer {
 
 @media (max-width: 1000px) {
     header {
-        padding: 0 20px;
+        padding: 0 20px; 
     }
 
     .menu-desktop {

@@ -717,9 +717,11 @@ margin-left: auto;
 
 /*slideshow*/
 
-.mySlides {
-    display: none
-}
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+.img {vertical-align: middle;}
+
+
 
 .w3-left,
 .w3-right,
@@ -748,9 +750,7 @@ width: 90%;
 }
 
 /* Hide the images by default */
-.mySlides {
-  display: none;
-}
+
 
 
 /* Next & previous buttons */
@@ -784,7 +784,7 @@ width: 90%;
 .text {
   color: black;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 15px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -799,6 +799,7 @@ width: 90%;
   height: 15px;
   width: 15px;
   margin: 0 2px;
+margin-bottom: 15px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -827,6 +828,32 @@ width: 90%;
   to {opacity: 1}
 }
 
+
+
+
+#mest-solgte-inspiration-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#mest-solgte-inspiration-billede {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#mest-solgte-inspiration-div-h2 {
+    background-image: url(../images/mest-solgte-mobil/mest-solgte-mobil-inspiration-baggrund.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    width: 45%;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/

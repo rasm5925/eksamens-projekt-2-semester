@@ -39,6 +39,8 @@ function lager(){
 };
 
 
+
+
 //Mest solgte
 var slideIndex = [1,1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */

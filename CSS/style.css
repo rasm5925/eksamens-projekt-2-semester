@@ -912,10 +912,6 @@ position: absolute;
     vertical-align: middle;
 }
 
-* {box-sizing: border-box}
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-
-
 
 
 .w3-left,
@@ -1065,11 +1061,6 @@ position: absolute;
     width: 45%;
 }
 
-.mestsolgte-flexbox {
-    display: none;
-}
-
-#
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
@@ -1245,6 +1236,7 @@ footer {
     margin-top: 5%;
     margin-left: 5%;
     padding-bottom: 5%;
+    margin-bottom: 0;
 }
 
 /*----------------------------------------------*/
@@ -1355,6 +1347,8 @@ footer {
         padding-right: 10%;
         padding-left: 10%;
     }
+
+
 
 
 
@@ -1553,33 +1547,7 @@ footer {
         right: 16px;
         width: 13%;
     }
-    /*----------------------------mest-solgte-desktop-------------------------------*/
-    .slideshow-container{
-        display: none;
-    }
-    .dot{
-        display: none;
-    }
-    
-   .mestsolgte-flexbox {
-        display: flex;
-       margin: 1%;
-    }
 
-    .mestsolgte-billede-flexbox {
-    margin: 1%;
-        text-align: center;
-    }
-    
-    .mestsolgt-billede-text {
-        text-align: center;
-        line-height: 40px;
-        padding-top: 1%;
-        padding-bottom: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-    
     /*----------------------------produkt-side-desktop-------------------------------*/
 
     #produkt-og-pris-flex {
@@ -1699,6 +1667,16 @@ footer {
         font-size: 1.2em;
         font-weight: 400;
     }
+
+
+
+
+
+
+
+
+
+
 
 
 

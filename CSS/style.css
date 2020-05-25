@@ -761,6 +761,40 @@ position: absolute;
     margin-right: 4%;
 }
 
+#content-kraglund{
+    background-color: #5D4333;
+    margin-top: 14%;
+}
+
+#content-h4{
+    padding-top: 10%;
+    font-size: 1.6em;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+#content-p{
+    color: white;
+    margin: 4%;
+    line-height: 1.5;
+    padding-bottom: 6%;
+}
+
+#content-img-mobile{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+#content-img-desk{
+    display: none;
+}
+
+
+
+
+
+
 #specifikationer-box {
     background-color: #F1F1F1;
     margin-left: 4%;
@@ -1632,12 +1666,44 @@ footer {
         display: block;
     }
 
-
-
     #sofa-i-stuen-billede-desktop {
         display: block;
         margin-top: 4%;
     }
+    
+    #content-img-mobile{
+        display: none;
+    }
+    
+    #content-kraglund-flex{
+        display: flex;
+    }
+    
+    #content-kraglund-flex-1{
+        width: 50%;
+    }
+    
+    #content-kraglund-flex-2{
+        width: 50%;
+    }
+    
+    #content-img-desk{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    
+    #content-p{
+    margin: 10%;
+    }
+    
+    #content-img-desk{
+        display: block;
+    }
+    
+    
 
     #specifikationer-billede-flex {
         display: flex;

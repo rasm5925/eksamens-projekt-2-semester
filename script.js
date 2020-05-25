@@ -32,7 +32,7 @@ function lager(){
     .then((data) => {
         let output = '';
         data.forEach(function(lager){
-            output+= `<p id="api-svar">${lager.antal} stk. på lager</p>`;
+            output+= `<p id="api-svar">${lager.Antal} stk. på lager</p>`;
         })
         document.getElementById("api-svar").innerHTML = output;
     })

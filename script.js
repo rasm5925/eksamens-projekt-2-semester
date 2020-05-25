@@ -11,7 +11,34 @@ $(document).ready(function() {
                 $(this).toggleClass('active');
                 
             })
+        });
+
+
+$(document).ready(function(){
+    $('.thumb a').mouseover(function(e){
+        e.preventDefault();
+        $('.imgBox img').attr("src", $(this).attr("href"));
+    });
+});
+
+
+const apiKnap = document.getElementById("api-knap");
+
+apiKnap.addEventListener("click", lager);
+
+function lager(){
+    fetch('json/lager.json')
+    .then((res) => res.json())
+    .then((data) => {
+        let output = '';
+        data.forEach(function(lager){
+            output+= `<p id="api-svar">${lager.antal} stk. på lager</p>`;
         })
+        document.getElementById("api-svar").innerHTML = output;
+    })
+};
+
+
 //Mest solgte
 var slideIndex = [1,1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */

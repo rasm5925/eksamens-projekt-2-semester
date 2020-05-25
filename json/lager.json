@@ -1,7 +1,14 @@
 [{
-		"antal": "9",
-		"Forfatter": "Nicklas Bendtner",
-		"Titel": "Historie fra begge sider",
-		"Sidetal": "225"
+		"Sofa": "KRAGELUND Haslelux",
+		"Type": "2 pers. sofa",
+        "Stof": "Orange stof",
+        "antal": "9",
+	},
+ 
+ {
+		"Sofa": "KRAGELUND Haslelux",
+		"Type": "3 pers. sofa",
+        "Stof": "Orange stof",
+        "antal": "5",
 	}
 ]

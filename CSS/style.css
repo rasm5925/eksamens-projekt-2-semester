@@ -842,7 +842,7 @@ margin-left: auto;
 
 /*slideshow*/
 
-* {box-sizing: border-box}
+
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
 
 
@@ -861,7 +861,7 @@ margin-left: auto;
 }
 
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {

@@ -1062,6 +1062,14 @@ position: absolute;
 
 /*inspirations side----------------------------------------------------------*/
 
+#mobinspi{
+    display: block;
+}
+
+#deskinspi{
+    display: none;
+}
+
 #inspirationsoverskrift{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -1826,17 +1834,29 @@ footer {
     }
 
 
+/*inspiration over 1000px-------------------------------------------------------------------*/
 
-
-
-
-
+#mobinspi{
+    display: none;
 }
 
+#deskinspi{
+    display: block;
+}
 
+#inspirationsoverskrift{
+    margin: 5%;
+    font-size: 2em;
+}
 
+.deskinspirationsartikel img{
+    max-width: 80%;
+    margin: 5% 10%;
+    }
 
 /*------------------------------------------------------------------------*/
+    
+}
 
 @media (max-width: 1000px) {
     header {

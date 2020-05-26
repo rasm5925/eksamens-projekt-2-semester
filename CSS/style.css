@@ -162,18 +162,20 @@ main {}
     text-align: center;
 }
 
-#se-mere-pil{
-position: absolute;
-  top: 94%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#se-mere-pil {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#se-mere-pil-p{
+
+#se-mere-pil-p {
     color: white;
 }
+
 .shake-vertical {
-	-webkit-animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	        animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    -webkit-animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 
@@ -586,11 +588,11 @@ position: absolute;
     font-size: 1.5em;
 }
 
-.imgBox{
+.imgBox {
     overflow: hidden;
 }
 
-.thumb{
+.thumb {
     overflow: hidden;
     text-align: center;
 }
@@ -685,14 +687,14 @@ position: absolute;
     font-size: 0.8em;
 }
 
-#api-flex{
+#api-flex {
     display: flex;
     margin-left: 4%;
     margin-right: 4%;
 }
 
 
-#api-knap{
+#api-knap {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 2%;
@@ -700,8 +702,8 @@ position: absolute;
     font-weight: 400;
 }
 
-#api-svar{
-   font-size: 0.9em;
+#api-svar {
+    font-size: 0.9em;
     margin-top: auto;
     margin-bottom: auto;
     display: block;
@@ -761,12 +763,12 @@ position: absolute;
     margin-right: 4%;
 }
 
-#content-kraglund{
+#content-kraglund {
     background-color: #5D4333;
     margin-top: 14%;
 }
 
-#content-h4{
+#content-h4 {
     padding-top: 10%;
     font-size: 1.6em;
     text-align: center;
@@ -774,19 +776,19 @@ position: absolute;
     font-weight: 500;
 }
 
-#content-p{
+#content-p {
     color: white;
     margin: 4%;
     line-height: 1.5;
     padding-bottom: 6%;
 }
 
-#content-img-mobile{
+#content-img-mobile {
     width: 100%;
     margin-bottom: -5px;
 }
 
-#content-img-desk{
+#content-img-desk {
     display: none;
 }
 
@@ -929,10 +931,9 @@ position: absolute;
 
 /*slideshow*/
 
-
-
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-
+* {
+    box-sizing: border-box
+}
 
 .mySlides1,
 .mySlides2,
@@ -943,9 +944,6 @@ position: absolute;
     display: none
 }
 
-.img {
-    vertical-align: middle;
-}
 
 
 
@@ -962,7 +960,9 @@ position: absolute;
 }
 
 
-
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -1034,10 +1034,10 @@ position: absolute;
     transition: background-color 0.6s ease;
 }
 
-/*.active,
+.active,
 .dot:hover {
     background-color: #717171;
-}*/
+}
 
 /* Fading animation */
 .fade {
@@ -1094,17 +1094,22 @@ position: absolute;
     width: 45%;
 }
 
-/*inspirations side----------------------------------------------------------*/
-
-#mobinspi{
-    display: block;
-}
-
-#deskinspi{
+.mestsolgte-flexbox {
     display: none;
 }
 
-#inspirationsoverskrift{
+
+/*inspirations side----------------------------------------------------------*/
+
+#mobinspi {
+    display: block;
+}
+
+#deskinspi {
+    display: none;
+}
+
+#inspirationsoverskrift {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 10% 5%;
@@ -1112,14 +1117,14 @@ position: absolute;
     text-align: center;
 }
 
-.inspirationsbilleder{
+.inspirationsbilleder {
     max-width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#inspiundertitel1{
+#inspiundertitel1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 5%;
@@ -1131,7 +1136,7 @@ position: absolute;
     margin-top: -5%;
 }
 
-#inspiundertitel2{
+#inspiundertitel2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 5%;
@@ -1143,7 +1148,7 @@ position: absolute;
     margin-top: -5%;
 }
 
-#inspiundertitel3{
+#inspiundertitel3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 5%;
@@ -1154,7 +1159,7 @@ position: absolute;
     margin-top: -5%;
 }
 
-.inspitekst{
+.inspitekst {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -1163,7 +1168,7 @@ position: absolute;
     margin: 5%;
     margin-top: -10%;
     background-color: #2b2d29;
-    color: #f1f1f1;        
+    color: #f1f1f1;
 }
 
 /* Footer
@@ -1348,60 +1353,71 @@ footer {
 
 
 @-webkit-keyframes shake-vertical {
-  0%,
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  10%,
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: translateY(8px);
-            transform: translateY(8px);
-  }
-  80% {
-    -webkit-transform: translateY(6.4px);
-            transform: translateY(6.4px);
-  }
-  90% {
-    -webkit-transform: translateY(-6.4px);
-            transform: translateY(-6.4px);
-  }
+
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+
+    80% {
+        -webkit-transform: translateY(6.4px);
+        transform: translateY(6.4px);
+    }
+
+    90% {
+        -webkit-transform: translateY(-6.4px);
+        transform: translateY(-6.4px);
+    }
 }
+
 @keyframes shake-vertical {
-  0%,
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  10%,
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: translateY(8px);
-            transform: translateY(8px);
-  }
-  80% {
-    -webkit-transform: translateY(6.4px);
-            transform: translateY(6.4px);
-  }
-  90% {
-    -webkit-transform: translateY(-6.4px);
-            transform: translateY(-6.4px);
-  }
+
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+
+    80% {
+        -webkit-transform: translateY(6.4px);
+        transform: translateY(6.4px);
+    }
+
+    90% {
+        -webkit-transform: translateY(-6.4px);
+        transform: translateY(-6.4px);
+    }
 }
 
 
@@ -1653,6 +1669,34 @@ footer {
         width: 13%;
     }
 
+    /*----------------------------mest-solgte-desktop-------------------------------*/
+    .slideshow-container {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .mestsolgte-flexbox {
+        display: flex;
+        margin: 1%;
+    }
+
+    .mestsolgte-billede-flexbox {
+        margin: 1%;
+        text-align: center;
+    }
+
+    .mestsolgt-billede-text {
+        text-align: center;
+        line-height: 40px;
+        padding-top: 1%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
     /*----------------------------produkt-side-desktop-------------------------------*/
 
     #produkt-og-pris-flex {
@@ -1678,40 +1722,40 @@ footer {
         display: block;
         margin-top: 4%;
     }
-    
-    #content-img-mobile{
+
+    #content-img-mobile {
         display: none;
     }
-    
-    #content-kraglund-flex{
+
+    #content-kraglund-flex {
         display: flex;
     }
-    
-    #content-kraglund-flex-1{
+
+    #content-kraglund-flex-1 {
         width: 50%;
     }
-    
-    #content-kraglund-flex-2{
+
+    #content-kraglund-flex-2 {
         width: 50%;
     }
-    
-    #content-img-desk{
+
+    #content-img-desk {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         padding-top: 16%;
         padding-bottom: 16%;
     }
-    
-    #content-p{
-    margin: 10%;
+
+    #content-p {
+        margin: 10%;
     }
-    
-    #content-img-desk{
+
+    #content-img-desk {
         display: block;
     }
-    
-    
+
+
 
     #specifikationer-billede-flex {
         display: flex;
@@ -1900,28 +1944,28 @@ footer {
     }
 
 
-/*inspiration over 1000px-------------------------------------------------------------------*/
+    /*inspiration over 1000px-------------------------------------------------------------------*/
 
-#mobinspi{
-    display: none;
-}
-
-#deskinspi{
-    display: block;
-}
-
-#inspirationsoverskrift{
-    margin: 5%;
-    font-size: 2em;
-}
-
-.deskinspirationsartikel img{
-    max-width: 80%;
-    margin: 5% 10%;
+    #mobinspi {
+        display: none;
     }
 
-/*------------------------------------------------------------------------*/
-    
+    #deskinspi {
+        display: block;
+    }
+
+    #inspirationsoverskrift {
+        margin: 5%;
+        font-size: 2em;
+    }
+
+    .deskinspirationsartikel img {
+        max-width: 80%;
+        margin: 5% 10%;
+    }
+
+    /*------------------------------------------------------------------------*/
+
 }
 
 @media (max-width: 1000px) {

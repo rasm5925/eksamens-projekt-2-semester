@@ -521,6 +521,7 @@ main {}
     font-weight: 500;
     margin-bottom: 2%;
     font-size: 1.6em;
+    margin-top: 6%;
 }
 
 #produkt-overskrift-h3 {
@@ -534,6 +535,7 @@ main {}
 #produkt-overskrift-p {
     text-align: center;
     font-size: 0.8em;
+    margin-bottom: 4%;
 }
 
 #produkt-billede {
@@ -685,7 +687,7 @@ main {}
 
 
 #koeb-nu-knap-pris {
-    margin-left: 4%;
+    margin: 4%;
     font-size: 1.6em;
     font-weight: 400;
 }
@@ -711,8 +713,7 @@ main {}
 
 #api-flex {
     display: flex;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 4%;
 }
 
 
@@ -735,20 +736,27 @@ main {}
 
 #produkt-info-h3 {
     margin-left: 4%;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 500;
+    margin-bottom: 4%;
+    margin-top: 10%;
 }
 
 #produkt-info-p-del-1 {
     margin-left: 4%;
     margin-right: 4%;
     line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 2%;
 }
 
 #produkt-info-p-del-2 {
+    margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
     line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 10%;
 }
 
 #fordele-icon-flex {
@@ -770,6 +778,7 @@ main {}
 .p-fordele {
     width: 90%;
     margin: 4%;
+    font-size: 0.9em;
 }
 
 #sofa-i-stuen-billede {
@@ -803,6 +812,7 @@ main {}
     margin: 4%;
     line-height: 1.5;
     padding-bottom: 6%;
+    font-size: 1em;
 }
 
 #content-img-mobile {
@@ -829,6 +839,8 @@ main {}
     padding-top: 6%;
     font-size: 1.6em;
     text-align: center;
+    margin-bottom: 10%;
+    font-weight: 500;
 
 }
 
@@ -839,13 +851,13 @@ main {}
 #specifikationer-flex-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-weight: 500;
     margin-bottom: 2%;
 }
 
 #specifikationer-flex-2 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     width: 50%;
     font-weight: 500;
     margin-bottom: 2%;
@@ -855,14 +867,14 @@ main {}
 .specifikationer-overskrift-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: 400;
     margin-bottom: 2%;
     margin-top: 4%;
 }
 
 .specifikationer-overskrift-2 {
-    font-size: 1.6em;
+    font-size: 1em;
     width: 50%;
     font-weight: 400;
     margin-bottom: 2%;
@@ -873,14 +885,14 @@ main {}
 .specifikationer-svar-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 400;
     margin-top: 2%;
     margin-bottom: 0;
 }
 
 .specifikationer-svar-2 {
-    font-size: 1em;
+    font-size: 0.8em;
     width: 50%;
     font-weight: 400;
     margin-top: 2%;
@@ -897,7 +909,7 @@ main {}
 
 
 #andre-favoritter-h4 {
-    padding-top: 6%;
+    padding-top: 10%;
     font-size: 1.6em;
     text-align: center;
 }
@@ -1371,9 +1383,9 @@ footer {
 #copyright {
     color: white;
     margin-top: 5%;
-    margin-left: 5%;
     padding-bottom: 5%;
     margin-bottom: 0;
+    text-align: center;
 }
 
 /*----------------------------------------------*/
@@ -1885,6 +1897,31 @@ footer {
         font-weight: 400;
     }
     
+    #koeb-nu-knap-pris{
+        margin-top: 0;
+    }
+    
+    #produkt-info-h3 {
+    margin-top: 4%;
+        margin-bottom: 2%;
+}
+    
+    #produkt-info-p-del-2 {
+    margin-bottom: 4%;
+}
+    #content-kraglund {
+    margin-top: 6%;
+}
+    
+    #andre-favoritter-h4 {
+    padding-top: 8%;
+        padding-bottom: 8%;
+    font-size: 2.6em;
+}
+    #content-h4 {
+    padding-top: 16%;
+    font-size: 2.6em;
+}
 
 
 

@@ -245,10 +245,10 @@ main {}
 #inspiration-div-h2 {
     background-image: url(../images/mobil-forside/inspiration-baggrund.jpg);
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 1.2em;
     position: absolute;
     top: 50%;
@@ -407,13 +407,12 @@ main {}
         font-weight: 500;
 }
 
-#vores-erfaring-p {
+.vores-erfaring-p {
     width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     line-height: 40px;
-    display: none;
 }
 
 
@@ -979,6 +978,8 @@ main {}
     color: white; 
   background-color: transparent; 
   text-decoration: none;
+    cursor: pointer;
+    
 }
 
 .mestsolgte-links:visited {
@@ -1155,10 +1156,10 @@ main {}
 #mest-solgte-inspiration-div-h2 {
     background-image: url(../images/mest-solgte-mobil/mest-solgte-mobil-inspiration-baggrund.jpg);
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 1.5em;
     position: absolute;
     top: 50%;
@@ -1706,7 +1707,17 @@ footer {
         padding-bottom: 2%;
         display: block;
     }
-
+    #vores-erfaring-flex {
+        display: flex;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+     
+    .vores-erfaring-flex-text {
+        width: 50%;
+        margin: 0,auto;
+    }
+    
     #martin-h2 {
         margin-bottom: 5%;
         font-size: 2em;

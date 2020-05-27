@@ -976,11 +976,11 @@ main {}
 
 .mestsolgte-links:link {
 
-    color: white; 
-  background-color: transparent; 
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 
-    
+
 
     color: white;
     background-color: transparent;
@@ -1176,14 +1176,14 @@ main {}
     width: 45%;
 }
 
- .mestsolgt-billede-text {
-        text-align: center;
-        line-height: 40px;
-        padding-top: 1%;
-        padding-bottom: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
+.mestsolgt-billede-text {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
 
 .mestsolgte-flexbox {
     display: none;
@@ -1547,14 +1547,39 @@ footer {
     nav {
         display: none;
     }
-    
+
     header .logo {
-   top: 50%;
-        left:50%;
-        width:200px;
-        height:200px;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
         margin-top: -90px;
         margin-left: -100px;
+    }
+
+    #logo-produkt {
+        width: 100px;
+        position: absolute;
+        right: 50%;
+
+        top: auto;
+        left: auto;
+        height: auto;
+        margin: auto;
+        margin-right: -50px;
+
+    }
+
+    #logo-produkt2 {
+        width: 100px;
+        position: absolute;
+        right: 50%;
+
+        top: auto;
+        left: auto;
+        height: auto;
+        margin: auto;
+        margin-right: -50px;
     }
 
     #nyheder-flexbox {
@@ -1686,13 +1711,13 @@ footer {
     }
 
     #udsalg-text {
-        
+
         line-height: 40px;
         padding-top: 25%;
         padding-bottom: 25%;
         padding-right: 10%;
         padding-left: 10%;
-        
+
     }
 
     #martin-billede {
@@ -1731,17 +1756,18 @@ footer {
         padding-bottom: 2%;
         display: block;
     }
+
     #vores-erfaring-flex {
         display: flex;
         margin: auto;
         padding-bottom: 5%;
     }
-     
+
     .vores-erfaring-flex-text {
         width: 50%;
-        margin: 0,auto;
+        margin: 0, auto;
     }
-    
+
     #martin-h2 {
         margin-bottom: 5%;
         font-size: 2em;
@@ -1928,10 +1954,11 @@ footer {
     #mest-solgte-inspiration-div-h2 {
         width: 20%;
     }
-   
+
     #inspiration-div-h2 {
         width: 20%;
     }
+
     /*----------------------------produkt-side-desktop-------------------------------*/
 
     #produkt-og-pris-flex {

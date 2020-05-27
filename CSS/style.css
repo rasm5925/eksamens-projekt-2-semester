@@ -12,7 +12,7 @@ section,
 summary {
     display: block;
 }
- 
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -24,13 +24,13 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 0 60px;
     width: 100%;
     box-sizing: border-box;
-    
+
 
 }
 
@@ -404,7 +404,7 @@ main {}
     text-align: center;
     margin-bottom: 15%;
     font-size: 1.5em;
-        font-weight: 500;
+    font-weight: 500;
 }
 
 #vores-erfaring-p {
@@ -728,7 +728,7 @@ main {}
     text-decoration: underline;
 }
 
-#api-knap:hover{
+#api-knap:hover {
     text-decoration: none;
     cursor: pointer;
 }
@@ -976,22 +976,23 @@ main {}
 }
 
 .mestsolgte-links:link {
-    color: white; 
-  background-color: transparent; 
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .mestsolgte-links:visited {
-    color: white; 
-  background-color: transparent; 
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .mestsolgte-links:hover {
-    color: black; 
-  background-color: transparent; 
-  text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
+
 /*slideshow*/
 
 * {
@@ -1008,7 +1009,7 @@ main {}
     margin-bottom: 5%;
 }
 
-.slideshow-billeder{
+.slideshow-billeder {
     transition: .5s ease;
 }
 
@@ -1315,11 +1316,11 @@ footer {
     text-decoration: underline;
 }
 
-.p-tlf-a{
+.p-tlf-a {
     text-decoration: none;
 }
 
-.p-mail-a{
+.p-mail-a {
     text-decoration: none;
 }
 
@@ -1349,6 +1350,8 @@ footer {
 #footer-flex {
     display: flex;
     width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 #footer-flex-1 {
@@ -1357,7 +1360,6 @@ footer {
 
 #footer-flex-2 {
     width: 60%;
-    padding-top: 10%;
 
 }
 
@@ -1374,55 +1376,51 @@ footer {
 #icon-fb {
     height: 20px;
     width: auto;
-    margin-right: 2.5%;
 }
 
 #icon-ig {
     height: 20px;
     width: auto;
-  margin-right: 2.5%;
 }
 
 #icon-yt {
     height: 18px;
     width: auto;
-    margin-bottom: 2%;
-      margin-right: 2.5%;
+
 }
 
 #icon-p {
     height: 20px;
     width: auto;
-      margin-right: 2.5%;
 }
 
 #icon-dankort {
     height: 20px;
     width: auto;
-    margin-right: 2.5%;
-    
+
 }
 
 #icon-mastercard {
     height: 20px;
     width: auto;
-      margin-right: 2.5%;
-    
+
 }
 
 #icon-visa {
     height: 20px;
     width: auto;
-      margin-right: 2.5%;
-    
+
 }
 
 #icon-em {
-   height: 30px;
+    height: 30px;
     width: auto;
-    margin-right: 2.5%;
 }
 
+.foot-icon {
+    margin-right: 8%;
+    margin-bottom: 8%;
+}
 
 #icon-flex-1 {
     display: block;
@@ -1532,6 +1530,11 @@ footer {
 @media (min-width: 1000px) {
     nav {
         display: none;
+    }
+    
+    header .logo {
+    color: #fff;
+    
     }
 
     #nyheder-flexbox {
@@ -1663,11 +1666,13 @@ footer {
     }
 
     #udsalg-text {
+        
         line-height: 40px;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 25%;
+        padding-bottom: 25%;
         padding-right: 10%;
         padding-left: 10%;
+        
     }
 
     #martin-billede {
@@ -1712,12 +1717,12 @@ footer {
         font-size: 2em;
         font-weight: 500;
     }
-    
-    #trustpilot-billede{
+
+    #trustpilot-billede {
         margin-top: 0;
     }
-    
-    #fysisk-butik-billede{
+
+    #fysisk-butik-billede {
         margin-top: 0;
     }
 
@@ -1746,17 +1751,19 @@ footer {
 
         position: relative;
         width: 100%;
+        padding-bottom: 5%;
     }
 
     #footer-flex-1 {
-        width: 33%;
+        width: 30%;
         text-align: center;
         margin-top: 6%;
     }
 
     #footer-flex-2 {
-        width: 33%;
+        width: 40%;
         text-align: center;
+        margin-top: 6%;
     }
 
     #footer-flex-bred {
@@ -1765,10 +1772,11 @@ footer {
 
     #footer-flex-desktop {
         display: block;
-        width: 33%;
+        width: 30%;
         text-align: center;
         margin-top: 6%;
     }
+
 
     #footer-flex-mobil {
         display: none;
@@ -1781,57 +1789,93 @@ footer {
         right: 16px;
         width: 13%;
     }
-#icon-fb {
-    height: 25px;
-    width: auto;
-    margin: 5%;
-}
 
-#icon-ig {
-    height: 25px;
-    width: auto;
- margin: 5%;
-}
+    #p-kunderservice {
+        font-size: 1.5em;
+    }
 
-#icon-yt {
-    height: 25px;
-    width: auto;
-    margin-bottom: 2%;
-     margin: 5%;
-}
+    #p-prisgarenti {
+        font-size: 1em;
+    }
 
-#icon-p {
-    height: 25px;
-    width: auto;
-     margin: 5%;
-}
+    #p-prisgarenti {
+        font-size: 1em;
+    }
 
-#icon-dankort {
-    height: 25px;
-    width: auto;
-     margin: 5%;
-    
-}
+    #p-kontakt {
+        font-size: 1.5em;
 
-#icon-mastercard {
-    height: 25px;
-    width: auto;
-     margin: 5%;
-    
-}
+    }
 
-#icon-visa {
-    height: 20px;
-    width: auto;
-     margin: 5%;
-    
-}
+    #p-tlf {
+        font-size: 1em;
+    }
 
-#icon-em {
-   height: 45px;
-    width: auto;
-     margin: 5%;
-}
+    #p-mail {
+        font-size: 1em;
+    }
+
+    #p-mail-svar {
+        font-size: 1em;
+    }
+
+
+    #icon-fb {
+        height: 30px;
+        width: auto;
+
+    }
+
+    #icon-ig {
+        height: 30px;
+        width: auto;
+
+    }
+
+    #icon-yt {
+        height: 30px;
+        width: auto;
+
+
+    }
+
+    #icon-p {
+        height: 30px;
+        width: auto;
+
+    }
+
+    #icon-dankort {
+        height: 30px;
+        width: auto;
+
+
+    }
+
+    #icon-mastercard {
+        height: 30px;
+        width: auto;
+
+
+    }
+
+    #icon-visa {
+        height: 30px;
+        width: auto;
+
+
+    }
+
+    #icon-em {
+        height: 45px;
+        width: auto;
+
+    }
+
+    .foot-icon {
+        margin-right: 2.5%
+    }
+
     /*----------------------------mest-solgte-desktop-------------------------------*/
     .slideshow-container {
         display: none;
@@ -2003,7 +2047,7 @@ footer {
         border: solid 2px #446C68;
         width: 40%;
     }
-    
+
     #koeb-nu-knap:hover {
         background-color: white;
         border: solid 2px #446C68;
@@ -2012,7 +2056,7 @@ footer {
         transition: 0.3s;
         cursor: pointer;
     }
-    
+
 
     #koeb-nu-knap-p {
         text-align: center;
@@ -2021,32 +2065,34 @@ footer {
         font-size: 1.2em;
         font-weight: 400;
     }
-    
-    #koeb-nu-knap-pris{
+
+    #koeb-nu-knap-pris {
         margin-top: 0;
     }
-    
+
     #produkt-info-h3 {
-    margin-top: 4%;
+        margin-top: 4%;
         margin-bottom: 2%;
-}
-    
+    }
+
     #produkt-info-p-del-2 {
-    margin-bottom: 4%;
-}
+        margin-bottom: 4%;
+    }
+
     #content-kraglund {
-    margin-top: 6%;
-}
-    
+        margin-top: 6%;
+    }
+
     #andre-favoritter-h4 {
-    padding-top: 8%;
+        padding-top: 8%;
         padding-bottom: 8%;
-    font-size: 2.6em;
-}
+        font-size: 2.6em;
+    }
+
     #content-h4 {
-    padding-top: 16%;
-    font-size: 2.6em;
-}
+        padding-top: 16%;
+        font-size: 2.6em;
+    }
 
 
 
@@ -2141,9 +2187,10 @@ footer {
     #spe-svar-2 {
         margin-bottom: 6%;
     }
-/*mest solgte baggrund-------------------------------------------------------------------*/
 
-    
+    /*mest solgte baggrund-------------------------------------------------------------------*/
+
+
     /*inspiration over 1000px-------------------------------------------------------------------*/
 
     #mobinspi {

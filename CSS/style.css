@@ -1105,10 +1105,10 @@ main {}
     transition: background-color 0.6s ease;
 }
 
-.active,
+/*.active,
 .dot:hover {
     background-color: #717171;
-}
+}*/
 
 /* Fading animation */
 .fade {
@@ -1312,6 +1312,24 @@ footer {
     font-size: 0.8em;
     margin-left: 5%;
     margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+.p-tlf-a{
+    text-decoration: none;
+}
+
+.p-mail-a{
+    text-decoration: none;
+}
+
+
+#p-tlf:hover {
+    text-decoration: none;
+}
+
+#p-mail:hover {
+    text-decoration: none;
 }
 
 #p-mail {
@@ -1319,6 +1337,7 @@ footer {
     font-size: 0.8em;
     margin-left: 5%;
     margin-bottom: 2%;
+    text-decoration: underline;
 }
 
 #p-mail-svar {

@@ -30,6 +30,7 @@ header {
     padding: 0 60px;
     width: 100%;
     box-sizing: border-box;
+    
 
 }
 
@@ -696,11 +697,11 @@ main {}
     background-color: #446C68;
     margin-left: 4%;
     margin-right: 4%;
+    color: white;
 }
 
 #koeb-nu-knap-p {
     text-align: center;
-    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.6em;
@@ -720,18 +721,23 @@ main {}
 #api-knap {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 5%;
     font-weight: 400;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+#api-knap:hover{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #api-svar {
     font-size: 0.9em;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
 #produkt-info-h3 {
@@ -1885,12 +1891,22 @@ footer {
 
     #koeb-nu-knap {
         background-color: #446C68;
+        border: solid 2px #446C68;
         width: 40%;
     }
+    
+    #koeb-nu-knap:hover {
+        background-color: white;
+        border: solid 2px #446C68;
+        color: #446C68;
+        transition-property: transform;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
 
     #koeb-nu-knap-p {
         text-align: center;
-        color: white;
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 1.2em;

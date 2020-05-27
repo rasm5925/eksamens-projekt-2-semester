@@ -12,7 +12,7 @@ section,
 summary {
     display: block;
 }
-
+ 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -924,8 +924,8 @@ main {}
 
 .overskrift-kategori {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3%;
+    font-size: 1.6em;
 
 }
 
@@ -988,7 +988,7 @@ main {}
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -1012,11 +1012,11 @@ main {}
 .text {
     color: black;
     font-size: 15px;
-    padding: 15px;
     position: absolute;
-    bottom: 8px;
+    bottom: -13x%;
     width: 100%;
     text-align: center;
+    margin-bottom: 7%
 }
 
 
@@ -1808,7 +1808,7 @@ footer {
         display: none;
     }
 
-    body {
+    #produkt-body {
         background-color: #F3F3F3;
     }
 
@@ -1943,8 +1943,9 @@ footer {
     #spe-svar-2 {
         margin-bottom: 6%;
     }
+/*mest solgte baggrund-------------------------------------------------------------------*/
 
-
+    
     /*inspiration over 1000px-------------------------------------------------------------------*/
 
     #mobinspi {

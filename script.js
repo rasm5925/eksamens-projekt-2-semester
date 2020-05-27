@@ -42,7 +42,7 @@ $(document).ready(function() {
                 $(this).toggleClass('active');
                 
             })
-        });
+        })
 
 
 $(document).ready(function(){
@@ -58,7 +58,7 @@ const apiKnap = document.getElementById("api-knap");
 apiKnap.addEventListener("click", lager);
 
 function lager(){
-    fetch('json/lager.json')
+    fetch('https://rasmusriischristensen.dk/lager.json')
     .then((res) => res.json())
     .then((data) => {
         let output = '';
@@ -68,6 +68,31 @@ function lager(){
         document.getElementById("api-svar").innerHTML = output;
     })
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

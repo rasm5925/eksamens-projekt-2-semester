@@ -1540,8 +1540,12 @@ footer {
     }
     
     header .logo {
-    color: #fff;
-    
+   top: 50%;
+        left:50%;
+        width:200px;
+        height:200px;
+        margin-top: -90px;
+        margin-left: -100px;
     }
 
     #nyheder-flexbox {

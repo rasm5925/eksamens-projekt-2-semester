@@ -36,10 +36,6 @@ header {
 header .logo {
     color: #fff;
     width: 100px;
-    line-height: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    float: right;
     position: absolute;
     right: 50%;
     margin-right: -50px;
@@ -204,6 +200,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -247,6 +246,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -274,6 +276,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -300,6 +305,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -326,6 +334,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -352,6 +363,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -388,10 +402,11 @@ main {}
 #martin-h2 {
     text-align: center;
     margin-bottom: 15%;
+    font-size: 1.5em;
+        font-weight: 500;
 }
 
 #vores-erfaring-p {
-    text-align: center;
     width: 70%;
     display: block;
     margin-left: auto;
@@ -412,6 +427,7 @@ main {}
     line-height: 24px;
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 8%;
 }
 
 
@@ -426,6 +442,7 @@ main {}
     line-height: 24px;
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 8%;
 
 }
 
@@ -447,10 +464,12 @@ main {}
 
 #kundeservice-flex-3 {
     width: 50%;
+    margin-bottom: 8%;
 }
 
 #kundeservice-flex-4 {
     width: 50%;
+    margin-bottom: 8%;
 }
 
 
@@ -458,6 +477,7 @@ main {}
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
 }
 
 #trustpilot-stjerner {
@@ -480,6 +500,7 @@ main {}
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
 }
 
 #fysisk-butik-p {
@@ -487,6 +508,7 @@ main {}
     line-height: 24px;
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 8%;
 
 }
 
@@ -1208,17 +1230,19 @@ footer {
     color: white;
     font-size: 1.3em;
     margin-left: 10%;
+    margin-bottom: 6%;
 }
 
 #p-prisgarenti {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 10%;
+    margin-bottom: 4%;
 }
 
 #p-fortrydelsesret {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 10%;
 }
 
@@ -1228,23 +1252,26 @@ footer {
     color: white;
     font-size: 1.3em;
     margin-left: 5%;
+    margin-bottom: 3%;
 }
 
 #p-tlf {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 5%;
+    margin-bottom: 2%;
 }
 
 #p-mail {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 5%;
+    margin-bottom: 2%;
 }
 
 #p-mail-svar {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 5%;
 }
 
@@ -1263,7 +1290,7 @@ footer {
 
 }
 
-#footer-flex-2 {
+#footer-flex-3 {
     width: 50%;
     padding-top: 10%;
 
@@ -1296,21 +1323,21 @@ footer {
 }
 
 #icon-dankort {
-    height: 16px;
+    height: 20px;
     width: auto;
-    padding: 3%;
+    
 }
 
 #icon-mastercard {
-    height: 16px;
+    height: 20px;
     width: auto;
-    padding: 3%;
+    
 }
 
 #icon-visa {
-    height: 16px;
+    height: 20px;
     width: auto;
-    padding: 3%;
+    
 }
 
 #icon-em {
@@ -1461,7 +1488,6 @@ footer {
     }
 
     #nyheder-text {
-        text-align: center;
         line-height: 40px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -1503,10 +1529,11 @@ footer {
     #bestsellers-div-h2-part2 {
         text-align: center;
         padding-top: 10%;
+        font-size: 2em;
+        font-weight: 500;
     }
 
     #bestsellers-text {
-        text-align: center;
         line-height: 40px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -1559,7 +1586,6 @@ footer {
     }
 
     #udsalg-text {
-        text-align: center;
         line-height: 40px;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -1606,6 +1632,16 @@ footer {
 
     #martin-h2 {
         margin-bottom: 5%;
+        font-size: 2em;
+        font-weight: 500;
+    }
+    
+    #trustpilot-billede{
+        margin-top: 0;
+    }
+    
+    #fysisk-butik-billede{
+        margin-top: 0;
     }
 
 

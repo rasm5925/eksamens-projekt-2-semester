@@ -962,6 +962,12 @@ main {}
     width: 100%;
 }
 
+#mestsolgte-overskrift {
+    text-align: center;
+    font-size: 1.9em;
+    margin: 3%;
+}
+
 .overskrift-kategori {
     text-align: center;
     margin: 3%;
@@ -969,6 +975,23 @@ main {}
 
 }
 
+.mestsolgte-links:link {
+    color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.mestsolgte-links:visited {
+    color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.mestsolgte-links:hover {
+    color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
 /*slideshow*/
 
 * {
@@ -981,10 +1004,18 @@ main {}
 .mySlides4,
 .mySlides5,
 .mySlides6 {
-    display: none
+    display: none;
+    margin-bottom: 5%;
 }
 
+.slideshow-billeder{
+    transition: .5s ease;
+}
 
+.mestsolgte-billede-flexbox:hover .slideshow-billeder {
+    opacity: 0.4;
+    cursor: pointer;
+}
 
 
 .w3-left,
@@ -1126,6 +1157,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;

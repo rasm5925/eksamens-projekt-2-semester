@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
             $('.menu-toggle').click(function() {
                 $('nav').toggleClass('active')
                 if ($('nav').hasClass('active'))
@@ -11,7 +11,7 @@
                 $(this).toggleClass('active');
                 
             })
-        });*/
+        });
 
 
 
@@ -53,12 +53,12 @@ function showSlides(n, no) {
 
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     $('.thumb a').mouseover(function(e){
         e.preventDefault();
         $('.imgBox img').attr("src", $(this).attr("href"));
     })
-});*/
+});
 
 
 const apiKnap = document.getElementById("api-knap");

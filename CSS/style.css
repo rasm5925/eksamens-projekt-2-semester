@@ -249,7 +249,7 @@ main {}
     padding-right: 3%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 1.2em;
+    font-size: 1.6em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1163,11 +1163,11 @@ main {}
 #mest-solgte-inspiration-div-h2 {
     background-image: url(../images/mest-solgte-mobil/mest-solgte-mobil-inspiration-baggrund.jpg);
     background-size: cover;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 1.5em;
+    font-size: 1.6em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1175,6 +1175,15 @@ main {}
     border: 2px solid white;
     width: 45%;
 }
+
+ .mestsolgt-billede-text {
+        text-align: center;
+        line-height: 40px;
+        padding-top: 1%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
 
 .mestsolgte-flexbox {
     display: none;
@@ -1916,15 +1925,13 @@ footer {
         text-align: center;
     }
 
-    .mestsolgt-billede-text {
-        text-align: center;
-        line-height: 40px;
-        padding-top: 1%;
-        padding-bottom: 5%;
-        padding-right: 10%;
-        padding-left: 10%;
+    #mest-solgte-inspiration-div-h2 {
+        width: 20%;
     }
-
+   
+    #inspiration-div-h2 {
+        width: 20%;
+    }
     /*----------------------------produkt-side-desktop-------------------------------*/
 
     #produkt-og-pris-flex {
@@ -2213,6 +2220,7 @@ footer {
 
 
     /*inspiration over 1000px-------------------------------------------------------------------*/
+
 
     #mobinspi {
         display: none;

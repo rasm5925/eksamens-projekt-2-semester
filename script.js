@@ -19,9 +19,13 @@ $(document).ready(function() {
 
 
 //Mest solgte
-const slideIndex = [1,1,1,1,1,1];
+
+//const slideIndex = [1,1,1,1,1,1];
+
 /* Class the members of each slideshow group with different CSS classes */
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]; 
+
+
+/*let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]; 
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
@@ -45,16 +49,16 @@ function showSlides(n, no) {
 
   x[slideIndex[no]-1].style.display = "block"; 
     
-};
+};*/
 
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     $('.thumb a').mouseover(function(e){
         e.preventDefault();
         $('.imgBox img').attr("src", $(this).attr("href"));
     })
-});*/
+});
 
 
 const apiKnap = document.getElementById("api-knap");
@@ -62,7 +66,7 @@ const apiKnap = document.getElementById("api-knap");
 apiKnap.addEventListener("click", lager);
 
 function lager(){
-    fetch('https://rasmusriischristensen.dk/lager.json')
+    fetch('json/lager.json')
     .then((res) => res.json())
     .then((data) => {
         let output = '';

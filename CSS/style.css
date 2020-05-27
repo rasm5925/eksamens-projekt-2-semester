@@ -30,6 +30,7 @@ header {
     padding: 0 60px;
     width: 100%;
     box-sizing: border-box;
+    
 
 }
 
@@ -521,6 +522,7 @@ main {}
     font-weight: 500;
     margin-bottom: 2%;
     font-size: 1.6em;
+    margin-top: 6%;
 }
 
 #produkt-overskrift-h3 {
@@ -534,6 +536,7 @@ main {}
 #produkt-overskrift-p {
     text-align: center;
     font-size: 0.8em;
+    margin-bottom: 4%;
 }
 
 #produkt-billede {
@@ -685,7 +688,7 @@ main {}
 
 
 #koeb-nu-knap-pris {
-    margin-left: 4%;
+    margin: 4%;
     font-size: 1.6em;
     font-weight: 400;
 }
@@ -694,11 +697,11 @@ main {}
     background-color: #446C68;
     margin-left: 4%;
     margin-right: 4%;
+    color: white;
 }
 
 #koeb-nu-knap-p {
     text-align: center;
-    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1.6em;
@@ -711,44 +714,55 @@ main {}
 
 #api-flex {
     display: flex;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 4%;
 }
 
 
 #api-knap {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 5%;
     font-weight: 400;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+#api-knap:hover{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #api-svar {
     font-size: 0.9em;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
 #produkt-info-h3 {
     margin-left: 4%;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 500;
+    margin-bottom: 4%;
+    margin-top: 10%;
 }
 
 #produkt-info-p-del-1 {
     margin-left: 4%;
     margin-right: 4%;
     line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 2%;
 }
 
 #produkt-info-p-del-2 {
+    margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
     line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 10%;
 }
 
 #fordele-icon-flex {
@@ -770,6 +784,7 @@ main {}
 .p-fordele {
     width: 90%;
     margin: 4%;
+    font-size: 0.9em;
 }
 
 #sofa-i-stuen-billede {
@@ -803,6 +818,7 @@ main {}
     margin: 4%;
     line-height: 1.5;
     padding-bottom: 6%;
+    font-size: 1em;
 }
 
 #content-img-mobile {
@@ -829,6 +845,8 @@ main {}
     padding-top: 6%;
     font-size: 1.6em;
     text-align: center;
+    margin-bottom: 10%;
+    font-weight: 500;
 
 }
 
@@ -839,13 +857,13 @@ main {}
 #specifikationer-flex-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-weight: 500;
     margin-bottom: 2%;
 }
 
 #specifikationer-flex-2 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     width: 50%;
     font-weight: 500;
     margin-bottom: 2%;
@@ -855,14 +873,14 @@ main {}
 .specifikationer-overskrift-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: 400;
     margin-bottom: 2%;
     margin-top: 4%;
 }
 
 .specifikationer-overskrift-2 {
-    font-size: 1.6em;
+    font-size: 1em;
     width: 50%;
     font-weight: 400;
     margin-bottom: 2%;
@@ -873,14 +891,14 @@ main {}
 .specifikationer-svar-1 {
     width: 50%;
     margin-left: 8%;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 400;
     margin-top: 2%;
     margin-bottom: 0;
 }
 
 .specifikationer-svar-2 {
-    font-size: 1em;
+    font-size: 0.8em;
     width: 50%;
     font-weight: 400;
     margin-top: 2%;
@@ -897,7 +915,7 @@ main {}
 
 
 #andre-favoritter-h4 {
-    padding-top: 6%;
+    padding-top: 10%;
     font-size: 1.6em;
     text-align: center;
 }
@@ -944,6 +962,12 @@ main {}
     width: 100%;
 }
 
+#mestsolgte-overskrift {
+    text-align: center;
+    font-size: 1.9em;
+    margin: 3%;
+}
+
 .overskrift-kategori {
     text-align: center;
     margin: 3%;
@@ -951,6 +975,23 @@ main {}
 
 }
 
+.mestsolgte-links:link {
+    color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.mestsolgte-links:visited {
+    color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.mestsolgte-links:hover {
+    color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
 /*slideshow*/
 
 * {
@@ -963,10 +1004,18 @@ main {}
 .mySlides4,
 .mySlides5,
 .mySlides6 {
-    display: none
+    display: none;
+    margin-bottom: 5%;
 }
 
+.slideshow-billeder{
+    transition: .5s ease;
+}
 
+.mestsolgte-billede-flexbox:hover .slideshow-billeder {
+    opacity: 0.4;
+    cursor: pointer;
+}
 
 
 .w3-left,
@@ -1056,10 +1105,10 @@ main {}
     transition: background-color 0.6s ease;
 }
 
-.active,
+/*.active,
 .dot:hover {
     background-color: #717171;
-}
+}*/
 
 /* Fading animation */
 .fade {
@@ -1108,6 +1157,9 @@ main {}
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1260,6 +1312,24 @@ footer {
     font-size: 0.8em;
     margin-left: 5%;
     margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+.p-tlf-a{
+    text-decoration: none;
+}
+
+.p-mail-a{
+    text-decoration: none;
+}
+
+
+#p-tlf:hover {
+    text-decoration: none;
+}
+
+#p-mail:hover {
+    text-decoration: none;
 }
 
 #p-mail {
@@ -1267,6 +1337,7 @@ footer {
     font-size: 0.8em;
     margin-left: 5%;
     margin-bottom: 2%;
+    text-decoration: underline;
 }
 
 #p-mail-svar {
@@ -1371,9 +1442,9 @@ footer {
 #copyright {
     color: white;
     margin-top: 5%;
-    margin-left: 5%;
     padding-bottom: 5%;
     margin-bottom: 0;
+    text-align: center;
 }
 
 /*----------------------------------------------*/
@@ -1873,18 +1944,53 @@ footer {
 
     #koeb-nu-knap {
         background-color: #446C68;
+        border: solid 2px #446C68;
         width: 40%;
     }
+    
+    #koeb-nu-knap:hover {
+        background-color: white;
+        border: solid 2px #446C68;
+        color: #446C68;
+        transition-property: transform;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
 
     #koeb-nu-knap-p {
         text-align: center;
-        color: white;
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 1.2em;
         font-weight: 400;
     }
     
+    #koeb-nu-knap-pris{
+        margin-top: 0;
+    }
+    
+    #produkt-info-h3 {
+    margin-top: 4%;
+        margin-bottom: 2%;
+}
+    
+    #produkt-info-p-del-2 {
+    margin-bottom: 4%;
+}
+    #content-kraglund {
+    margin-top: 6%;
+}
+    
+    #andre-favoritter-h4 {
+    padding-top: 8%;
+        padding-bottom: 8%;
+    font-size: 2.6em;
+}
+    #content-h4 {
+    padding-top: 16%;
+    font-size: 2.6em;
+}
 
 
 

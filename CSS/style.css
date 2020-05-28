@@ -345,7 +345,7 @@ color: white;
     color: white;
 }
 
-#brands-billede {
+.brands-billede {
     width: 100%;
     padding-top: 5%;
 }
@@ -1073,6 +1073,7 @@ color: white;
 
 .slideshow-billeder {
     transition: .5s ease;
+    width: 100%;
 }
 
 .mestsolgte-billede-flexbox:hover .slideshow-billeder {
@@ -1147,7 +1148,7 @@ color: white;
     color: black;
     font-size: 15px;
     position: absolute;
-    bottom: -13x%;
+    bottom: -13%;
     width: 100%;
     text-align: center;
     margin-bottom: 7%
@@ -1333,14 +1334,14 @@ footer {
     display: none;
 }
 
-#back-to-top-p {
+.back-to-top-p {
     color: white;
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 6%;
 }
 
-#back-to-top-billede {
+.back-to-top-billede {
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 6%;
@@ -1369,14 +1370,14 @@ footer {
 
 
 
-#p-kontakt {
+.p-kontakt {
     color: white;
     font-size: 1.3em;
     margin-left: 5%;
     margin-bottom: 3%;
 }
 
-#p-tlf {
+.p-tlf {
     color: white;
     font-size: 0.8em;
     margin-left: 5%;
@@ -1393,15 +1394,15 @@ footer {
 }
 
 
-#p-tlf:hover {
+.p-tlf:hover {
     text-decoration: none;
 }
 
-#p-mail:hover {
+.p-mail:hover {
     text-decoration: none;
 }
 
-#p-mail {
+.p-mail {
     color: white;
     font-size: 0.8em;
     margin-left: 5%;
@@ -1409,7 +1410,7 @@ footer {
     text-decoration: underline;
 }
 
-#p-mail-svar {
+.p-mail-svar {
     color: white;
     font-size: 0.8em;
     margin-left: 5%;
@@ -1845,7 +1846,7 @@ footer {
 
     .vores-erfaring-flex-text {
         width: 50%;
-        margin: 0, auto;
+        margin: 0;
     }
 
     #martin-h2 {

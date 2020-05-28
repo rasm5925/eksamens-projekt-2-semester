@@ -420,6 +420,7 @@ main {}
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 40%;
 }
 
 #gratis-fragt-p {
@@ -435,6 +436,7 @@ main {}
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 40%;
 }
 
 #support-p {
@@ -478,6 +480,7 @@ main {}
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
+    max-width: 40%;
 }
 
 #trustpilot-stjerner {
@@ -501,6 +504,7 @@ main {}
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
+    max-width: 40%;
 }
 
 #fysisk-butik-p {
@@ -1776,16 +1780,21 @@ footer {
 
     #trustpilot-billede {
         margin-top: 0;
+        max-width: 40%;
     }
 
     #fysisk-butik-billede {
         margin-top: 0;
+        max-width: 40%;
     }
 
 
     #icon-flex-bred {
         display: flex;
         margin-bottom: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+
 
     }
 
@@ -1793,7 +1802,31 @@ footer {
         display: none;
     }
 
+    #icon-flex-bred {
 
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #gratis-fragt-billede {
+
+        max-width: 50%;
+    }
+
+    #support-billede {
+
+        max-width: 50%;
+    }
+
+    #trustpilot-billede {
+
+        max-width: 50%;
+    }
+
+    #fysisk-butik-billede {
+
+        max-width: 50%;
+    }
 
     #icon-flex-bred-1 {
         width: 50%;
@@ -2150,18 +2183,6 @@ footer {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     #specifikationer-box {
         background-color: #F1F1F1;
         margin: 0;
@@ -2331,6 +2352,7 @@ footer {
         margin-top: 14px;
 
     }
+
 
 
 }

@@ -1,0 +1,9 @@
+<svg id="Component_22_1" data-name="Component 22 – 1" xmlns="http://www.w3.org/2000/svg" width="179" height="182" viewBox="0 0 179 182">
+  <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="89.5" cy="91" rx="89.5" ry="91" fill="#446c68"/>
+  <g id="Icon_feather-truck" data-name="Icon feather-truck" transform="translate(56.351 62.406)">
+    <path id="Path_21" data-name="Path 21" d="M1.5,4.5H47.809V45.411H1.5Z" transform="translate(-1.5 -4.5)" fill="#fff"/>
+    <path id="Path_22" data-name="Path 22" d="M24,12H36.349l9.262,9.441V37.176H24Z" transform="translate(22.309 3.735)" fill="#fff"/>
+    <path id="Path_23" data-name="Path 23" d="M19.936,31.868a7.794,7.794,0,0,1-7.718,7.868,7.869,7.869,0,0,1,0-15.735,7.794,7.794,0,0,1,7.718,7.868Z" transform="translate(1.675 16.911)" fill="#fff"/>
+    <path id="Path_24" data-name="Path 24" d="M39.436,31.868A7.72,7.72,0,1,1,31.718,24a7.794,7.794,0,0,1,7.718,7.867Z" transform="translate(22.309 16.911)" fill="#fff"/>
+  </g>
+</svg>

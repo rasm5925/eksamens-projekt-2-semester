@@ -135,11 +135,7 @@ header nav ul li a {
     display: block;
 }
 
-/*header nav ul li a:hover,
-header nav ul li a.active {
-    color: #fff;
-    background: #D8D5D3;
-}*/
+
 
 .menu-toggle {
     color: #fff;
@@ -286,6 +282,12 @@ main {}
     transform: translate(-50%, -50%);
     border: 2px solid white;
     width: 45%;
+}
+
+#bestsellers-div-h2{
+color: white;
+    text-decoration: none;
+    
 }
 
 
@@ -994,11 +996,42 @@ main {}
     text-decoration: none;
 }
 
-.mestsolgte-links:hover {
+#nyheder-div-h2:hover {
     color: black;
     background-color: transparent;
     text-decoration: none;
+    border: 2px solid black;
 }
+
+#inspiration-div-h2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+#trends-div-h2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+#brands-div-h2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+#udsalg-div-h2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+
 
 /*slideshow*/
 
@@ -1113,10 +1146,7 @@ main {}
     transition: background-color 0.6s ease;
 }
 
-/*.active,
-.dot:hover {
-    background-color: #717171;
-}*/
+
 
 /* Fading animation */
 .fade {
@@ -1666,9 +1696,13 @@ footer {
         padding-left: 10%;
     }
 
-    #bestsellers-div-h2 {
-        display: none;
-    }
+    
+    #bestsellers-div-h2:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid black;
+}
 
     #trends-og-brands-flexbox {
         display: flex;

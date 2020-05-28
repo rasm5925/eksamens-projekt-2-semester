@@ -30,9 +30,13 @@ header {
     padding: 0 60px;
     width: 100%;
     box-sizing: border-box;
+    z-index: 1;
+    background-color: rgba(43, 45, 41, 0.0);
 
 
 }
+
+/*background-color: rgba(43, 45, 41, 0.5);*/
 
 header .logo {
     color: #fff;
@@ -135,6 +139,10 @@ header nav ul li a {
     display: block;
 }
 
+.menu-links:hover{
+    background-color: white;
+    color: #2B2D29;
+}
 
 
 .menu-toggle {
@@ -146,6 +154,16 @@ header nav ul li a {
     display: none;
 }
 
+#logo-gades{
+        display: none;
+    }
+#logo-gades-1{
+        display: none;
+    }
+
+#logo-gades-3{
+    display: none;
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -1648,6 +1666,30 @@ footer {
         padding-bottom: 5%;
         padding-right: 10%;
         padding-left: 10%;
+    }
+    
+    #logo-gades-mobile{
+        display: none;
+    }
+    
+    #logo-gades{
+        display: block;
+    }
+    
+    #logo-gades-mobile-1{
+        display: none;
+    }
+    
+    #logo-gades-1{
+        display: block;
+    }
+    
+    #logo-gades-mobile-3{
+        display: none;
+    }
+    
+    #logo-gades-3{
+        display: block;
     }
 
 

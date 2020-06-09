@@ -1370,7 +1370,84 @@ color: white;
 #moebler-desktop{
     display: none;
 }
+/* Accessories
+-----------------------------------------------------------------------------*/
 
+.accessories-btn{
+ background-color: white;
+  border: 2px solid #446C68;
+  color: #446C68;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    transition: 0.3s ease;
+}
+
+.accessories-btn:hover{
+    background-color: #446C68;
+    border-color: white;
+    color: white;
+    transition: 0.3s ease;
+}
+.accessories-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#accessories-overskrift-h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.accessories-overskrift-h3{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+
+.accessories-billede-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+}
+.accessories-billede-1:hover{
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.accessories-overskrift-h3-desktop{
+    display: none;
+}
+
+#accessories-desktop{
+    display: none;
+}
+
+#accessories-last {
+    padding-bottom: 10%;
+}
 
 
 /* Footer
@@ -2474,8 +2551,69 @@ footer {
         margin-bottom: 8%;
     }
     
+    /*accessories 1000px-------------------------------------------------------------------*/
+   .accessories-flex {
+    display: flex;
+    flex-direction: row;
+}
+    .accessories-btn {
+        width: 30%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 3%;
+    }
     
+    .accessories-mobile{
+        display: none;
+    }
     
+    .accessories-flex{
+        display: flex;
+        width: 100%;
+    }
+    
+    .accessories-flex-1{
+        width: 33.33%;
+        margin: 2%;
+    }
+    
+    #accessories-desktop{
+    display: block;
+}
+    .accessories-billede{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    #accessories-overskrift-h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+    .accessories-desktop-h3{
+        text-align: center;
+        font-size: 1.3em;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    #accessories-inspiration-desktop{
+        margin-bottom: 8%;
+    }
+    
+.accessories-billede:hover{
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 
 }
 

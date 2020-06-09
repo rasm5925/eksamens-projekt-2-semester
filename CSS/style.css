@@ -139,7 +139,7 @@ header nav ul li a {
     display: block;
 }
 
-.menu-links:hover{
+.menu-links:hover {
     background-color: white;
     color: #2B2D29;
 }
@@ -154,14 +154,15 @@ header nav ul li a {
     display: none;
 }
 
-#logo-gades{
-        display: none;
-    }
-#logo-gades-1{
-        display: none;
-    }
+#logo-gades {
+    display: none;
+}
 
-#logo-gades-3{
+#logo-gades-1 {
+    display: none;
+}
+
+#logo-gades-3 {
     display: none;
 }
 
@@ -338,10 +339,10 @@ main {}
     width: 45%;
 }
 
-#bestsellers-div-h2{
-color: white;
+#bestsellers-div-h2 {
+    color: white;
     text-decoration: none;
-    
+
 }
 
 
@@ -1278,6 +1279,85 @@ color: white;
     display: none;
 }
 
+/* Sofaer side----------------------------------------------------------*/
+
+#sofaoverskrift {
+    margin: 10%;
+}
+
+#sofafilter {
+    margin: 10%;
+}
+
+#filterbox {
+    background-color: #F1F1F1;
+    padding: 5%;
+}
+
+.sofapic {
+    margin: 5%;
+}
+
+.sofatext {
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10%;
+    font-weight: 500;
+}
+
+.filterinfo {
+    font-size: 1.2em;
+    margin: 10%;
+
+}
+
+.filterfarve {
+    display: block;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.filtermol {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 10%;
+}
+
+.flexfilter1 {
+    display: flex;
+}
+
+.flexfilterindhold {
+    display: block;
+    width: 50%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5%;
+    margin-top: 10%;
+    padding: 5%;
+    background-color: #446C68;
+    color: white;
+    transition: 0.5s;
+    border: solid 1px #446C68;
+}
+
+h4:hover{
+    color: #446C68;
+    background: white;
+    transition: 0.5s;
+    border: solid 1px #446C68;
+}
+
+#icon-flex-bred{
+        margin-top: 5%;
+    }
 
 /*inspirations side----------------------------------------------------------*/
 
@@ -1798,28 +1878,28 @@ footer {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
-    #logo-gades-mobile{
+
+    #logo-gades-mobile {
         display: none;
     }
-    
-    #logo-gades{
+
+    #logo-gades {
         display: block;
     }
-    
-    #logo-gades-mobile-1{
+
+    #logo-gades-mobile-1 {
         display: none;
     }
-    
-    #logo-gades-1{
+
+    #logo-gades-1 {
         display: block;
     }
-    
-    #logo-gades-mobile-3{
+
+    #logo-gades-mobile-3 {
         display: none;
     }
-    
-    #logo-gades-3{
+
+    #logo-gades-3 {
         display: block;
     }
 
@@ -1869,13 +1949,13 @@ footer {
         padding-left: 10%;
     }
 
-    
+
     #bestsellers-div-h2:hover {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    border: 2px solid black;
-}
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid black;
+    }
 
     #trends-og-brands-flexbox {
         display: flex;
@@ -2470,6 +2550,41 @@ footer {
 
     /*mest solgte baggrund-------------------------------------------------------------------*/
 
+    /*Sofaer over 1000px-------------------------------------------------------------------*/
+
+    #sofaoverskrift {
+        margin: 1%;
+    }
+
+    #sofafilter {
+        margin: 1%;
+    }
+
+
+    #flexfilter2 {
+        display: flex;
+    }
+
+    .flexfilter1 {
+        width: 50%;
+    }
+
+    #filterbox {
+        padding: 1%;
+    }
+
+    h4 {
+        padding: 1%;
+        margin: 1% 42%;
+    }
+
+    .flexsofapic {
+        display: flex;
+    }
+
+    .sofapickdesk {
+        width: 33%;
+    }
 
     /*inspiration over 1000px-------------------------------------------------------------------*/
 

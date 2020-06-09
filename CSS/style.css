@@ -19,6 +19,9 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* Header
@@ -139,7 +142,7 @@ header nav ul li a {
     display: block;
 }
 
-.menu-links:hover{
+.menu-links:hover {
     background-color: white;
     color: #2B2D29;
 }
@@ -154,14 +157,15 @@ header nav ul li a {
     display: none;
 }
 
-#logo-gades{
-        display: none;
-    }
-#logo-gades-1{
-        display: none;
-    }
+#logo-gades {
+    display: none;
+}
 
-#logo-gades-3{
+#logo-gades-1 {
+    display: none;
+}
+
+#logo-gades-3 {
     display: none;
 }
 
@@ -171,11 +175,12 @@ main {}
 
 #forside-og-pil {
     text-align: center;
+    position: relative;
 }
 
 #se-mere-pil {
     position: absolute;
-    top: 94%;
+    top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -198,6 +203,42 @@ main {}
     height: 50px;
     width: 100%;
 }
+
+#favoritter-forside{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+#favoritter-desktop{
+    display: none;
+}
+
+.favoritter-billede{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;;
+    width: 90%;
+}
+
+
+.favoritter-h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color: black;
+}
+
+.favoritter-a{
+  text-decoration: none;  
+}
+
+
+
 
 #nyheder-div {
     position: relative;
@@ -302,10 +343,10 @@ main {}
     width: 45%;
 }
 
-#bestsellers-div-h2{
-color: white;
+#bestsellers-div-h2 {
+    color: white;
     text-decoration: none;
-    
+
 }
 
 
@@ -1242,6 +1283,92 @@ color: white;
     display: none;
 }
 
+/* Sofaer side----------------------------------------------------------*/
+
+#sofaoverskrift {
+    margin: 10%;
+}
+
+#sofafilter {
+    margin: 10%;
+}
+
+#filterbox {
+    background-color: #F1F1F1;
+    padding: 5%;
+}
+
+.sofapic {
+    margin: 5%;
+    transition: 0.3s ease;
+}
+
+.sofapic:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+}
+
+.sofatext {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    color: black;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10%;
+    font-weight: 500;
+}
+
+.filterinfo {
+    font-size: 1.2em;
+    margin: 10%;
+
+}
+
+.filterfarve {
+    display: block;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.filtermol {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 10%;
+}
+
+.flexfilter1 {
+    display: flex;
+}
+
+.flexfilterindhold {
+    display: block;
+    width: 50%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5%;
+    margin-top: 10%;
+    padding: 5%;
+    background-color: #446C68;
+    color: white;
+    transition: 0.5s;
+    border: solid 1px #446C68;
+}
+
+h4:hover{
+    color: #446C68;
+    background: white;
+    transition: 0.5s;
+    border: solid 1px #446C68;
+}
+
+#icon-flex-bred{
+        margin-top: 5%;
+    }
 
 /*inspirations side----------------------------------------------------------*/
 
@@ -1775,8 +1902,40 @@ footer {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        padding-top: 2%;
+        padding-top: 0;
     }
+    
+    #favoritter-desktop{
+        display: block;
+    }
+    
+    
+    #favoritter-flexbox{
+        display: flex;
+    }
+    
+    .favoritter-flexbox-1{
+        width: 33.33%;
+    }
+    
+    .favoritter-billede{
+        transition: 0.3s ease;
+    }
+    
+    #favoritter-forside{
+        font-size: 2.6em;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+    .favoritter-billede:hover{
+        opacity: 0.4;
+    cursor: pointer;
+    }
+    
+    
+    
+    
+    
 
     #nyheder-flexbox-1 {
         width: 60%;
@@ -1807,28 +1966,28 @@ footer {
         padding-right: 10%;
         padding-left: 10%;
     }
-    
-    #logo-gades-mobile{
+
+    #logo-gades-mobile {
         display: none;
     }
-    
-    #logo-gades{
+
+    #logo-gades {
         display: block;
     }
-    
-    #logo-gades-mobile-1{
+
+    #logo-gades-mobile-1 {
         display: none;
     }
-    
-    #logo-gades-1{
+
+    #logo-gades-1 {
         display: block;
     }
-    
-    #logo-gades-mobile-3{
+
+    #logo-gades-mobile-3 {
         display: none;
     }
-    
-    #logo-gades-3{
+
+    #logo-gades-3 {
         display: block;
     }
 
@@ -1878,13 +2037,13 @@ footer {
         padding-left: 10%;
     }
 
-    
+
     #bestsellers-div-h2:hover {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    border: 2px solid black;
-}
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid black;
+    }
 
     #trends-og-brands-flexbox {
         display: flex;
@@ -2346,6 +2505,7 @@ footer {
         background-color: #446C68;
         border: solid 2px #446C68;
         width: 40%;
+        transition: .3s ease;
     }
 
     #koeb-nu-knap:hover {
@@ -2353,8 +2513,8 @@ footer {
         border: solid 2px #446C68;
         color: #446C68;
         transition-property: transform;
-        transition: 0.3s;
         cursor: pointer;
+        transition: .3s ease;
     }
 
 
@@ -2478,6 +2638,41 @@ footer {
 
     /*mest solgte baggrund-------------------------------------------------------------------*/
 
+    /*Sofaer over 1000px-------------------------------------------------------------------*/
+
+    #sofaoverskrift {
+        margin: 1%;
+    }
+
+    #sofafilter {
+        margin: 1%;
+    }
+
+
+    #flexfilter2 {
+        display: flex;
+    }
+
+    .flexfilter1 {
+        width: 50%;
+    }
+
+    #filterbox {
+        padding: 1%;
+    }
+
+    h4 {
+        padding: 1%;
+        margin: 1% 42%;
+    }
+
+    .flexsofapic {
+        display: flex;
+    }
+
+    .sofapickdesk {
+        width: 33%;
+    }
 
     /*inspiration over 1000px-------------------------------------------------------------------*/
 
@@ -2525,7 +2720,15 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        transition: 0.3s ease;
     }
+    
+    .moebler-billede:hover{
+        opacity: 0.4;
+        transition: 0.3s ease;
+        
+    }
+    
     
     #moebler-overskrift-h2{
     text-align: center;
@@ -2539,12 +2742,23 @@ footer {
     .moebler-desktop-h3{
         text-align: center;
         font-size: 1.6em;
-        border: 1px solid black;
+        border: 1px solid #446C68;
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
+        color: #446C68;
+        transition: 0.2s ease;
+        text-decoration: none;
+    }
+    
+    .moebler-desktop-h3:hover{
+        border: 1px solid white;
+        background-color: #446C68;
+        color: white;
+        transition: 0.2s ease;
+        
     }
     
     #moebler-inspiration-desktop{

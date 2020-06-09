@@ -19,6 +19,9 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* Header
@@ -172,11 +175,12 @@ main {}
 
 #forside-og-pil {
     text-align: center;
+    position: relative;
 }
 
 #se-mere-pil {
     position: absolute;
-    top: 94%;
+    top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -1296,11 +1300,18 @@ main {}
 
 .sofapic {
     margin: 5%;
+    transition: 0.3s ease;
+}
+
+.sofapic:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
 }
 
 .sofatext {
     margin-left: 5%;
     margin-bottom: 10%;
+    color: black;
 }
 
 h3 {
@@ -2662,6 +2673,7 @@ footer {
         padding-bottom: 5%;
         color: #446C68;
         transition: 0.2s ease;
+        text-decoration: none;
     }
     
     .moebler-desktop-h3:hover{

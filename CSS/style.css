@@ -199,6 +199,42 @@ main {}
     width: 100%;
 }
 
+#favoritter-forside{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+#favoritter-desktop{
+    display: none;
+}
+
+.favoritter-billede{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;;
+    width: 90%;
+}
+
+
+.favoritter-h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color: black;
+}
+
+.favoritter-a{
+  text-decoration: none;  
+}
+
+
+
+
 #nyheder-div {
     position: relative;
     text-align: center;
@@ -1698,8 +1734,40 @@ footer {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        padding-top: 2%;
+        padding-top: 0;
     }
+    
+    #favoritter-desktop{
+        display: block;
+    }
+    
+    
+    #favoritter-flexbox{
+        display: flex;
+    }
+    
+    .favoritter-flexbox-1{
+        width: 33.33%;
+    }
+    
+    .favoritter-billede{
+        transition: 0.3s ease;
+    }
+    
+    #favoritter-forside{
+        font-size: 2.6em;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+    .favoritter-billede:hover{
+        opacity: 0.4;
+    cursor: pointer;
+    }
+    
+    
+    
+    
+    
 
     #nyheder-flexbox-1 {
         width: 60%;
@@ -2269,6 +2337,7 @@ footer {
         background-color: #446C68;
         border: solid 2px #446C68;
         width: 40%;
+        transition: .3s ease;
     }
 
     #koeb-nu-knap:hover {
@@ -2276,8 +2345,8 @@ footer {
         border: solid 2px #446C68;
         color: #446C68;
         transition-property: transform;
-        transition: 0.3s;
         cursor: pointer;
+        transition: .3s ease;
     }
 
 
@@ -2448,7 +2517,15 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        transition: 0.3s ease;
     }
+    
+    .moebler-billede:hover{
+        opacity: 0.4;
+        transition: 0.3s ease;
+        
+    }
+    
     
     #moebler-overskrift-h2{
     text-align: center;
@@ -2462,12 +2539,22 @@ footer {
     .moebler-desktop-h3{
         text-align: center;
         font-size: 1.6em;
-        border: 1px solid black;
+        border: 1px solid #446C68;
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
+        color: #446C68;
+        transition: 0.2s ease;
+    }
+    
+    .moebler-desktop-h3:hover{
+        border: 1px solid white;
+        background-color: #446C68;
+        color: white;
+        transition: 0.2s ease;
+        
     }
     
     #moebler-inspiration-desktop{

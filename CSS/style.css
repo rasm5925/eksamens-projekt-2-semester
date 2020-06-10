@@ -540,6 +540,7 @@ main {}
     max-width: 40%;
 }
 
+
 #support-p {
     text-align: center;
     line-height: 24px;
@@ -1136,6 +1137,7 @@ main {}
 
 
 
+
 /*slideshow*/
 
 * {
@@ -1308,7 +1310,17 @@ main {}
     transform: translate(-50%, -50%);
     border: 2px solid white;
     width: 45%;
+    color: white;
 }
+
+#mest-solgte-inspiration-div-h2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+
 
 .mestsolgt-billede-text {
     text-align: center;
@@ -1354,7 +1366,7 @@ main {}
     color: black;
 }
 
-h3 {
+.h3-sofaer {
     font-size: 1.5em;
     margin: 10%;
     font-weight: 500;
@@ -1387,7 +1399,7 @@ h3 {
     width: 50%;
 }
 
-h4 {
+#h4-sofaer {
     text-align: center;
     font-size: 1.5em;
     margin: 5%;
@@ -1399,7 +1411,7 @@ h4 {
     border: solid 1px #446C68;
 }
 
-h4:hover{
+#h4-sofaer:hover{
     color: #446C68;
     background: white;
     transition: 0.5s;
@@ -2062,7 +2074,7 @@ footer {
 
     }
 
-    #bestsellers-div-h2-part2 {
+    .bestsellers-div-h2-part2 {
         text-align: center;
         padding-top: 10%;
         font-size: 2em;
@@ -2396,7 +2408,7 @@ footer {
     }
 
     #mest-solgte-inspiration-div-h2 {
-        width: 20%;
+        width: 30%;
     }
 
     #inspiration-div-h2 {
@@ -2701,7 +2713,7 @@ footer {
         padding: 1%;
     }
 
-    h4 {
+    #h4-sofaer {
         padding: 1%;
         margin: 1% 42%;
     }
@@ -2868,6 +2880,26 @@ footer {
     cursor: pointer;
     transition: 0.3s ease;
 }
+    #footer-flex-1 {
+        margin-top: 1%;
+    }
+    
+    #footer-flex-2 {
+        margin-top: 1%;
+    }
+    
+    #footer-flex-desktop{
+       margin-top: 1%; 
+    }
+    
+    #footer-flex{
+        padding-bottom: 0;
+    }
+    
+    #copyright{
+        margin-top: 1%;
+        padding-bottom: 2%;
+    }
 
 }
 

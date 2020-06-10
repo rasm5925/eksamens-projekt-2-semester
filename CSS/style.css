@@ -101,6 +101,25 @@ header div ul {
 
 header div ul li {
     list-style: none;
+    position: relative;
+}
+
+
+header div ul li ul {
+    position: absolute;
+    left: 0;
+    background: rgba(43, 45, 41, 1.0);;
+    display: none;
+}
+
+
+header div ul li:hover ul {
+    display: block;
+}
+
+header div ul li ul li {
+    display: block;
+    width: 200px;
 }
 
 header div ul li a {

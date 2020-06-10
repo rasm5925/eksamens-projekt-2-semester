@@ -1574,6 +1574,7 @@ main {}
     border-color: white;
     color: white;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 .accessories-flex {
     display: flex;

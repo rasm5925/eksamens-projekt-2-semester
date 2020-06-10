@@ -18,19 +18,37 @@
 <body id="body-test">
     <header id="header-test">
         <div class="logo"><img class="logo" id="logo-gades" src="images/Gades-moebelhus-logo-hvid.svg" alt="Gades moebel-logo"><img class="logo" id="logo-gades-mobile" src="images/Gades-moebelhus-logo-hvid.svg" alt="Gades moebel-logo"></div>
-        
+
         <div>
             <ul class="menu-desktop">
                 <li><a href="sofaer.html" class="menu-links">Sofaer</a></li>
-                <li><a href="moebler.html" class="menu-links">Møbler</a></li>
-                <li><a href="#" class="menu-links">Accessories</a></li>
-                <li><a href="mestsolgte.html" class="menu-links">Tilbud</a></li>
+                <li class="sub-menu"><a href="moebler.html" class="menu-links">Møbler</a>
 
+                    <ul>
+                        <li><a href="sofaer.html" class="menu-links">Sofaer</a></li>
+                        <li><a href="#" class="menu-links">Spiseborde</a></li>
+                        <li><a href="#" class="menu-links">Spisebordstole</a></li>
+                        <li><a href="#" class="menu-links">Lænestole</a></li>
+                        <li><a href="#" class="menu-links">Reoler</a></li>
+                        <li><a href="#" class="menu-links">TV-møbler</a></li>
+                    </ul>
+                </li>
+                <li><a href="accessories.html" class="menu-links">Accessories</a>
+                    <ul>
+                        <li><a href="#" class="menu-links">Billeder</a></li>
+                        <li><a href="#" class="menu-links">Spejle</a></li>
+                        <li><a href="#" class="menu-links">Vægure</a></li>
+                        <li><a href="#" class="menu-links">Bøjler</a></li>
+                        <li><a href="#" class="menu-links">Skind</a></li>
+                    </ul>
+                </li>
+                <li><a href="mestsolgte.html" class="menu-links">Tilbud</a></li>
             </ul>
         </div>
 
-        <img id="shopping-kurv" src="images/shop-card.svg" alt="indkoebskurv">
-        <img id="search-icon" src="images/search-solid.svg" alt="search-icon">
+        <div id="shopping-kurv-box"><img id="shopping-kurv" src="images/shop-card.svg" alt="indkoebskurv"></div>
+        <div id="search-icon-box">
+            <img id="search-icon" src="images/search-solid.svg" alt="search-icon"></div>
 
         <section>
             <ul class="menu-desktop">
@@ -43,7 +61,7 @@
             <ul>
                 <li><a href="sofaer.html">Sofaer</a></li>
                 <li><a href="moebler.html">Møbler</a></li>
-                <li><a href="#">Accessories</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
                 <li><a href="mestsolgte.html">Tilbud</a></li>
                 <li><a href="inspiration.html">Inspiration</a></li>
                 <li><a href="#">Mød os</a></li>
@@ -73,71 +91,78 @@
         </div>
 
     </div>
-    
-    
+
+
     <h2 id="favoritter-forside">Dine favoritter</h2>
-    
+
     <section id="favoritter-flexbox">
-    <div class="favoritter-flexbox-1">
-    <a class="favoritter-a" href="produkt.html">
-    
-    <picture>
-            <source srcset="images/mobil-forside/kragelund-sofa.jpg" media="(max-width: 1000px)">
-            <source srcset="images/desktop-forside/kragelund.sofa.jpg" media="(max-width: 1500px)">
-            <source srcset="images/desktop-forside/kragelund.sofa.jpg">
-            <img class="favoritter-billede" src="images/desktop-forside/kragelund.sofa.jpg" alt="Kragelund sofa">
-        </picture>
-    
-    <h3 class="favoritter-h3">KRAGELUND Haslelux 2 pers.</h3></a></div>
-    
-    
-    <div class="favoritter-flexbox-1">
-    
-    <picture>
-            <source srcset="images/mobil-forside/tokyo-eg-spisebord.jpg" media="(max-width: 1000px)">
-            <source srcset="images/desktop-forside/tokyo-spisebord.jpg" media="(max-width: 1500px)">
-            <source srcset="images/desktop-forside/tokyo-spisebord.jpg">
-            <img class="favoritter-billede" src="images/desktop-forside/tokyo-spisebord.jpg" alt="Tokyo spisebord">
-        </picture>
-    
-    
-    <h3 class="favoritter-h3">Tokyo Eg spisebord</h3></div>
-    
-    <div class="favoritter-flexbox-1">
-    
-    <picture>
-            <source srcset="images/mobil-forside/rivoli-tv-bord.jpg" media="(max-width: 1000px)">
-            <source srcset="images/desktop-forside/rivoli-tv-bord.jpg" media="(max-width: 1500px)">
-            <source srcset="images/desktop-forside/rivoli-tv-bord.jpg">
-            <img class="favoritter-billede" src="images/desktop-forside/rivoli-tv-bord.jpg" alt="Rivoli Tv-bord">
-        </picture>
-    
-    
-    
-    
-    <h3 class="favoritter-h3">Rivoli TV-bord</h3></div>
-    
-    
+        <div class="favoritter-flexbox-1">
+            <a class="favoritter-a" href="produkt.html">
+
+                <picture>
+                    <source srcset="images/mobil-forside/kragelund-sofa.jpg" media="(max-width: 1000px)">
+                    <source srcset="images/desktop-forside/kragelund.sofa.jpg" media="(max-width: 1500px)">
+                    <source srcset="images/desktop-forside/kragelund.sofa.jpg">
+                    <img class="favoritter-billede" src="images/desktop-forside/kragelund.sofa.jpg" alt="Kragelund sofa">
+                </picture>
+
+                <h3 class="favoritter-h3">KRAGELUND Haslelux 2 pers.</h3>
+            </a></div>
+
+
+        <div class="favoritter-flexbox-1">
+
+            <picture>
+                <source srcset="images/mobil-forside/tokyo-eg-spisebord.jpg" media="(max-width: 1000px)">
+                <source srcset="images/desktop-forside/tokyo-spisebord.jpg" media="(max-width: 1500px)">
+                <source srcset="images/desktop-forside/tokyo-spisebord.jpg">
+                <img class="favoritter-billede" src="images/desktop-forside/tokyo-spisebord.jpg" alt="Tokyo spisebord">
+            </picture>
+
+
+            <h3 class="favoritter-h3">Tokyo Eg spisebord</h3>
+        </div>
+
+        <div class="favoritter-flexbox-1">
+
+            <picture>
+                <source srcset="images/mobil-forside/rivoli-tv-bord.jpg" media="(max-width: 1000px)">
+                <source srcset="images/desktop-forside/rivoli-tv-bord.jpg" media="(max-width: 1500px)">
+                <source srcset="images/desktop-forside/rivoli-tv-bord.jpg">
+                <img class="favoritter-billede" src="images/desktop-forside/rivoli-tv-bord.jpg" alt="Rivoli Tv-bord">
+            </picture>
+
+
+
+
+            <h3 class="favoritter-h3">Rivoli TV-bord</h3>
+        </div>
+
+
     </section>
-    
+
     <section id="favoritter-desktop">
-    <div id="favoritter-flexbox">
-    <div class="favoritter-flexbox-1">
-    <img class="favoritter-billede" src="images/desktop-forside/edge-reol.jpg" alt="Edge reol">
-    
-    <h3 class="favoritter-h3">EDGE Reol</h3></div>
-    
-    
-    <div class="favoritter-flexbox-1">
-    <img class="favoritter-billede" src="images/desktop-forside/venus-laenestol.jpg" alt="Venus lænestol">
-    <h3 class="favoritter-h3">Venus Lænestol</h3></div>
-    
-    <div class="favoritter-flexbox-1">
-    <img class="favoritter-billede" src="images/desktop-forside/cool-loungestol-laeder.jpg" alt="Loungestol læder">
-    <h3 class="favoritter-h3">Cool loungestol i læder</h3></div>
-    
-    
-    </div></section>
+        <div id="favoritter-flexbox">
+            <div class="favoritter-flexbox-1">
+                <img class="favoritter-billede" src="images/desktop-forside/edge-reol.jpg" alt="Edge reol">
+
+                <h3 class="favoritter-h3">EDGE Reol</h3>
+            </div>
+
+
+            <div class="favoritter-flexbox-1">
+                <img class="favoritter-billede" src="images/desktop-forside/venus-laenestol.jpg" alt="Venus lænestol">
+                <h3 class="favoritter-h3">Venus Lænestol</h3>
+            </div>
+
+            <div class="favoritter-flexbox-1">
+                <img class="favoritter-billede" src="images/desktop-forside/cool-loungestol-laeder.jpg" alt="Loungestol læder">
+                <h3 class="favoritter-h3">Cool loungestol i læder</h3>
+            </div>
+
+
+        </div>
+    </section>
 
 
 
@@ -146,10 +171,10 @@
             <div id="nyheder-div">
                 <div><img id="nyheder-billede" src="images/gades-moebelhus-nyheder.jpg" alt="Nyheder Gades moebelhus">
                 </div>
-<a class="mestsolgte-links" id="nyheder-div-h2" href="">
-                
+                <a class="mestsolgte-links" id="nyheder-div-h2" href="">
+
                     <h2>Nyheder</h2>
-                
+
                 </a>
             </div>
         </div>
@@ -182,7 +207,7 @@
 
 
             </div>
-<a class="mestsolgte-links" id="inspiration-div-h2" href="inspiration.html">
+            <a class="mestsolgte-links" id="inspiration-div-h2" href="inspiration.html">
                 <h2>Inspiration</h2>
             </a>
         </div>
@@ -208,7 +233,9 @@
 
                 </div>
 
-                    <a href="mestsolgte.html" id="bestsellers-div-h2"><h2>Best sellers</h2></a>
+                <a href="mestsolgte.html" id="bestsellers-div-h2">
+                    <h2>Best sellers</h2>
+                </a>
             </div>
         </div>
 
@@ -241,7 +268,7 @@
                     </picture>
 
                 </div>
-<a class="mestsolgte-links" id="trends-div-h2" href="">
+                <a class="mestsolgte-links" id="trends-div-h2" href="">
                     <h2>Trends</h2>
                 </a>
             </div>
@@ -254,7 +281,7 @@
             <div id="brands-div">
                 <div>
 
-                   
+
 
                     <picture>
                         <source srcset="images/mobil-forside/brands.jpg" media="(max-width: 1000px)">
@@ -265,7 +292,7 @@
 
 
                 </div>
-<a class="mestsolgte-links" id="brands-div-h2" href="">
+                <a class="mestsolgte-links" id="brands-div-h2" href="">
                     <h2>Brands</h2>
                 </a>
             </div>
@@ -301,10 +328,10 @@
                     </picture>
 
                 </div>
-<a class="mestsolgte-links" id="udsalg-div-h2" href="inspiration.html">
-                
+                <a class="mestsolgte-links" id="udsalg-div-h2" href="inspiration.html">
+
                     <h2>Udsalg</h2>
-                
+
                 </a>
             </div>
         </div>
@@ -333,20 +360,21 @@
 
     <div id="vores-erfaring-div">
         <h2 id="martin-h2">Vores erfaring</h2>
-       <div id="vores-erfaring-flex">
+        <div id="vores-erfaring-flex">
             <div class="vores-erfaring-flex-text">
-             <p class="vores-erfaring-p">Fars eller mors fodspor er for nogle en selvfølge og for andre langt fra det ønskede. Møbel Salg har et arbejdsliv i møbelbranchen været gældende i mange generationer.
+                <p class="vores-erfaring-p">Fars eller mors fodspor er for nogle en selvfølge og for andre langt fra det ønskede. Møbel Salg har et arbejdsliv i møbelbranchen været gældende i mange generationer.
 
-            Børns tanke for fremtiden rækker ikke så langt. Her findes blot spontane og fantasifulde tanker om hvad man kan blive, når man bliver stor.
-           I disse tanker og drømme findes der ingen begrænsninger. 
-            </p></div>
-           <div class="vores-erfaring-flex-text">
-            <p class="vores-erfaring-p">Det er først i de senere år at valget skal tages. Skal jeg gå mors, fars eller min egen vej?
-
-            Hos familien Gade er interessen for møbler kommet ind med modermælken, gennem fem generationer. Det yngste skud på stammen er Martin Gade (femte generation), som i samarbejde med sin mor, Annette Gade (fjerde generation) ejer og driver Møbel Salg.</p>
+                    Børns tanke for fremtiden rækker ikke så langt. Her findes blot spontane og fantasifulde tanker om hvad man kan blive, når man bliver stor.
+                    I disse tanker og drømme findes der ingen begrænsninger.
+                </p>
             </div>
+            <div class="vores-erfaring-flex-text">
+                <p class="vores-erfaring-p">Det er først i de senere år at valget skal tages. Skal jeg gå mors, fars eller min egen vej?
+
+                    Hos familien Gade er interessen for møbler kommet ind med modermælken, gennem fem generationer. Det yngste skud på stammen er Martin Gade (femte generation), som i samarbejde med sin mor, Annette Gade (fjerde generation) ejer og driver Møbel Salg.</p>
+            </div>
+        </div>
     </div>
-</div>
 
     <div id="icon-flex-bred">
         <div id="icon-flex-bred-1">
@@ -405,11 +433,11 @@
                 <div id="footer-flex-2">
                     <div id="icon-flex-1">
                         <img id="icon-fb" class="foot-icon" src="images/footer-billeder/footer-facebook-icon.svg" alt="gades moebelhus facebookside">
-                        
+
                         <img id="icon-ig" class="foot-icon" src="images/footer-billeder/footer-instagram-icon.svg" alt="gades moebelhus instagramside">
 
                         <img id="icon-yt" class="foot-icon" src="images/footer-billeder/footer-youtube-icon.svg" alt="gades moebelhus youtubeside">
-                        
+
                         <img id="icon-p" class="foot-icon" src="images/footer-billeder/footer-pinterest-icon.svg" alt="gades moebelhus pinterestside"></div>
 
                     <div id="icon-flex-2">

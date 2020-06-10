@@ -53,11 +53,11 @@ header .logo {
 #search-icon {
     height: 20px;
     float: right;
-    line-height: 50px;
-    font-size: 24px;
     margin-top: 14px;
-    margin-right: 10px;
+    font-size: 24px;
 }
+
+
 
 #shopping-kurv {
     height: 20px;
@@ -65,6 +65,27 @@ header .logo {
     line-height: 50px;
     font-size: 24px;
     margin-top: 14px;
+}
+
+#shopping-kurv:hover{
+    cursor: pointer;
+}
+
+#search-icon:hover{
+    cursor: pointer;
+
+}
+
+#shopping-kurv-box{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+}
+
+#search-icon-box{
+    padding-left: 10px;
+    padding-right: 5px;
+    float: right;
 }
 
 
@@ -80,6 +101,25 @@ header div ul {
 
 header div ul li {
     list-style: none;
+    position: relative;
+}
+
+
+header div ul li ul {
+    position: absolute;
+    left: 0;
+    background: rgba(43, 45, 41, 1.0);;
+    display: none;
+}
+
+
+header div ul li:hover ul {
+    display: block;
+}
+
+header div ul li ul li {
+    display: block;
+    width: 200px;
 }
 
 header div ul li a {

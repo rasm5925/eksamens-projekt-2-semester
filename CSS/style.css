@@ -1191,9 +1191,6 @@ main {}
     margin-right: auto;
 }
 
-/* Hide the images by default */
-
-
 
 /* Next & previous buttons */
 .prev,
@@ -1615,6 +1612,90 @@ h4:hover{
 
 #accessories-last {
     padding-bottom: 10%;
+}
+
+
+/*Vores historie----------------------------------------------------------*/
+
+#vores-historie-mobil {
+    display: block;
+}
+
+#vores-historie-desk {
+    display: none;
+}
+
+#vores-historie-overskrift {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 10% 5%;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.vores-historie-billeder {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vores-historie-undertitel1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    background-color: #446c68;
+    margin-top: -5%;
+}
+
+#vores-historie-undertitel2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    background-color: #5d4333;
+    margin-top: -5%;
+}
+
+#vores-historie-undertitel3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.5em;
+    background-color: #d8d5d3;
+    margin-top: -5%;
+}
+
+#vores-historie-undertitel4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.5em;
+    background-color: #d8d5d3;
+    margin-top: -5%;
+}
+
+.vores-historie-tekst {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 170%;
+    padding: 10%;
+    margin: 5%;
+    margin-top: -5%;
+    background-color: #2b2d29;
+    color: #f1f1f1;
 }
 
 
@@ -2735,8 +2816,27 @@ footer {
         max-width: 80%;
         margin: 5% 10%;
     }
+/*inspiration over 1000px-------------------------------------------------------------------*/
 
-    /*------------------------------------------------------------------------*/
+
+    #vores-historie-mobil {
+        display: none;
+    }
+
+    #vores-historie-desk {
+        display: block;
+    }
+
+    #vores-historie-overskrift {
+        margin: 5%;
+        font-size: 2em;
+        display: none;
+    }
+
+    .vores-historie-artikel img {
+        max-width: 90%;
+        margin: 5% 5%;
+    }
     
     /*møbler 1000px-------------------------------------------------------------------*/
     .moebler-mobile{
